@@ -1,0 +1,9 @@
+development:
+  dialect: postgres
+  datasource: dbname=simplefitness sslmode=disable
+  dir: migrations
+
+production:
+  dialect: postgres
+  datasource: dbname=simplefitness sslmode=disable
+  dir: migrations

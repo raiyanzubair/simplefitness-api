@@ -1,0 +1,5198 @@
+[
+  {
+    "title": "1 Leg Pushup",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "90 90 Hamstring",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Ab Crunch Machine",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Ab Draw Leg Slide",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Abdominal Pendulum",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Aerobics",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Air Bike",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "All Fours Squad Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Alternate Heel Touchers",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Alternate Leg Bridge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Alternate Leg Diagonal Bound",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Alternate Leg Reverse Hyper on Flat Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Alternate Reach and Catch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Alternating Arm Cobra",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Ankle Circles",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Ankle On The Knee",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Arm Circles",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Back Extension Machine",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Back Extension on Exercise Ball",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Back Relaxation",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Band Back Fly",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Band Back Flyes",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Band Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Band Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Band Calf Raises",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Band Cross Over",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Band Good Morning",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Band Hip Lift",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Band Lateral Raises",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Band Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Band Speed Alternating Biceps Curl ",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Band Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Band Upright Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Band Weighted Sit Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Bands Seated Shoulder Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell 1/2 Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell 1/4 Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Ab Rollout",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Barbell Ab Rollout on Knees",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Barbell Behind The Back Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Behind The Head Military Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Bent Arm Pullover",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Bent One Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Bent Over Two Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Bicep Curl with Deadlift",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Bicep Drag Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Body Row",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Bradford Rocky Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Clean and Jerk",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Clean Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Clean From Blocks",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Clean Pull",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Close Grip Bench Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Close Grip Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Close Grip Press Behind the Neck",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Close Grip Seated Concentration  Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Close Grip Standing Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Concentration Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Curls Lying Against An Incline",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Deadlift",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Decline Bench Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Decline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Decline Pullover",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Deep Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Drag Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell EZ Bar Reverse Grip Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Floor Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Barbell Frankenstein Squat",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Front Raise and Pullover",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Front Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Front Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Full Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Glute Bridge",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Barbell Good Morning",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Good Morning Off Pins",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Hack Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Hang Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Hang Clean Below the Knees",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Hang Snatch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Hang Snatch Below the Knees",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Heaving Snatch Balance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell High Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell High Inverted Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Hip Thrust",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Barbell Incline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Incline Bench Pull",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Incline Bench Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Incline Close Grip Bench Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Incline Shoulder Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Jefferson Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Jerk Balance",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Jerk Dip Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell JM Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Lateral Lunge",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Barbell Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Lying Back of the Head Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Lying Cambered Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Lying Close Grip Triceps Press To Chin",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Lying High Bench Biceps Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Lying Rear Delt Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Lying Reverse Extension ",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Lying Triceps Extension ",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Lying Triceps Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Military Press Behind Neck",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Muscle Snatch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Neck Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Olympic Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell One Arm Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell One Arm Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell One Arm Floor Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell One Arm Side Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell One Arm Snatch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell One Leg Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Overhead Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Palms Down Wrist Curl Over A Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Palms Up Wrist Curl Over A Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Power Clean from Blocks",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Power Jerk",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Power Snatch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Power Snatch From Blocks",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Press Sit Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Barbell Pullover and Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Push Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Push Press Behind The Neck",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Rack Delivery",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Rack Pulls",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Rear Delt Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Rear Delt Row To Neck",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Reverse Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Reverse Grip Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Reverse Grip Decline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Reverse Grip Incline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Reverse Grip Incline Bench Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Reverse Grip Skullcrusher",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Reverse Grip Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Reverse Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Reverse Preacher Curls",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Reverse Triceps Bench Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Reverse Wrist Curl Over Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Rocking Standing Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Barbell Romanian Deadlift",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Romanian Deadlift From Deficit",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Round The World Shoulder Stretch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Seated Alternating Front and Back Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Seated Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Barbell Seated Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Seated Good Mornings",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Barbell Seated High Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Seated Overhead Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Seated Palms Down Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Seated Palms Up Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Seated Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Seated Reverse Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Barbell Seated Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Barbell Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Shrugs Behind The Back",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Side Bend",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Barbell Side Split Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Single Leg Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Snatch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Snatch Balance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Snatch Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Snatch from Blocks",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Snatch Pull",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Snatch Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Speed Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Spider Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Split Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Split Jerk",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Split Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Squat Jerk",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Squat To A Bench",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Squat to Shoulder Press",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Squat to Upright Row",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Squat with Narrow Stance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Standing Alternating Front and Back Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Standing Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Barbell Standing Front Raise Over Head",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Standing Military Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Standing Overhead Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Standing Press Behind The Neck",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Standing Wide Grip Biceps Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Barbell Step Ups",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Stiff Leg Deadlift on Bench",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Stiff-Legged Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Sumo Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Barbell Up Right Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Barbell Wide Grip Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Wide Grip Decline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Wide Grip Decline Pullover",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Wide Reverse Grip Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Barbell Wide Stance Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Wide Stance Stiff Leg Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Zercher Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Barbell Zercher Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Behind Head Chest Stretch",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Bench  Twisting Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Bench Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Bench Press Machine",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Bench Pushups",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Bent Knee Hip Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Bent Knee Hundreds",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Bent Knee Side Angle Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Bicep Curl Machine",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Boat Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Bodyweight Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Bodyweight Side Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Bodyweight Standing Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Bodyweight Step Up",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Bodyweight Walking Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Bodyweight Wall Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Bow Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Box Jump Down with 1 Leg Stabilization",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Box Jump Multiple Response",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Boxing",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Bridge",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Butt-Ups",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Butterfly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "C-Curve",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Back Incline Pushdown",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Bent Over Low Pulley Lateral",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Bent Over Low Pulley Side Lateral",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Cable Close Grip Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Concentration Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Cross Over",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Deadlift",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Decline Chest Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Decline One Arm Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Decline Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Decline Pullover",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Drag Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Elevated Rows",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable External Rotation",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Flat Bench Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Full Range of Motion Straight Crossover",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable High Cross Over",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable High Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable High Pulley Overhead Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Incline Bench Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Incline Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Incline Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Incline Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Incline Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Incline Pullover",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Incline Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Incline Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Inner Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Internal Rotation",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Judo Flip",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Kneeling Concentration Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Kneeling Crunch with Alternating Oblique Twists",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Kneeling Pulldown",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Kneeling Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Low Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Lower Chest Raise",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Lying Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Lying Close Grip Biceps Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Lying Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Lying Pullover",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Lying Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Lying Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Lying Upright Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Mid Chest Crossovers",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable One Arm Decline Chest Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable One Arm Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable One Arm High Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable One Arm High-Pulley Side Bends",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable One Arm Incline Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable One Arm Incline Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable One Arm Incline Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable One Arm Lat Pulldown",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable One Arm Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable One Arm Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable One Arm Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable One Arm Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable One Arm Reverse Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable One Arm Seated Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable One Arm Standing Overhead Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable One Arm Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable One Arm Tricep Pushdown",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable One Leg Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Cable One Leg Kickback",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Cable One Leg Lying Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Overhead Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Overhead Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Pallof Press with Rotation",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Palm Rotational Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Pull Through",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Cable Pulldown Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Rear Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Reverse Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Reverse Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Reverse Grip Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Cable Reverse Grip Curls",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Reverse Grip Incline Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Reverse Grip Low Tricep Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Reverse Grip Triceps Pushdown",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Reverse One Arm Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Cable Reverse One Arm Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Reverse Preacher Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Cable Reverse Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Reverse Wood Chops",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Rope Crossover Seated Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Rope Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Rope Elevated Seated Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Rope Extension Incline Bench Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Rope Extension Lying Pullover",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Rope Face Pull",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Rope Hammer Curls",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Rope Hammer Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Rope High Pulley Overhead Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Rope Incline Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Rope Lat Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Rope Lying on Floor Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Rope One Arm Hammer Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Rope Overhead Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Rope Pull Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Rope Rear Delt Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Rope Row To Neck",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Rope Seated Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Rope Triceps Pushdown",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Rotation on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Row to Neck",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Russian Twists",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Seated Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Seated Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Seated One Arm Concentration Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Seated Overhead Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Seated Reverse Grip Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Cable Seated Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Seated Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Seated Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Side Bends",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Squatting Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Standing Behind the Back Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Cable Standing Biceps Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Standing Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Standing Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Standing Deltoid Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Standing Leg Curl",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Cable Standing Lift",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Standing Oblique Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Standing One Arm Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Standing One Arm Low Pulley Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Standing One Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Standing Reverse Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Cable Standing Reverse Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Standing Reverse Grip One Arm Overhead Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Standing Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Standing Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Standing Up Straight Crossovers",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Straight Arm Push Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Tricep Incline Pushdown",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Tricep Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Triceps Pushdown",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Twist on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Twisting Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Two Arm Curl on Incline Bench",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Cable Two Arm Tricep Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cable Underhand Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Up Right Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Cable Upper Chest Crossovers",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Cable Upper Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable V Bar Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable V Bar Standing Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Cable Wood Chops",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cable Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Calf Machine Shoulder Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Calf Press On Leg Press",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Calf Press on Leg Press Machine",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Calf Raise On A Dumbbell",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Calf Stretch With Hands Against Wall",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Calf Stretch with Rope",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Camel Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cat Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Chair Leg Extended Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Chair Lower Back Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Chair Upper Body Stretch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Chest and Front of Shoulder Stretch",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Child's Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Child's Pose on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Chin Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Clap Push Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Climbers Chin Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Close Grip Chin Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Close Grip Front Lat Pulldown",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Close Grip Reverse Lat Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Close Grip Vertical Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Close Hand Pushup",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Close Triceps Pushup",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Cobra",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Crane Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Crescent Moon Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cross Body Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cross Legged Erector Spinae",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cross Legged Lying Side Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cross Legged Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Cross-Legged Forward Fold",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Crossover Reverse Lunge",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Crunch with Hands Overhead",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Crunches",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Crunches with Legs on a Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Crunches with Legs on an Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dancer's Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Decline Ab Reach",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Alternate Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Alternate Leg Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Cable Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Cable Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Leg Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Leg Raise with Hip Thrust",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Twisting Sit Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Bench Weighted Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Oblique Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Decline Reverse Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Deep Push Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Depth Jump Leap",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dip Machine",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Donkey Calf Raises",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Dorsiflexion",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Double Leg Butt Kick",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Double Leg Hundreds",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Double Leg Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Downward Facing Balance",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Downward Facing Dog",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Downward Facing Dog-Single Leg",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Downward Facing Puppy Dog",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dragon Flag",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Drop Push Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell  Seated Front Hammer Raises",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Bent Over Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Alternate Bent Over Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Hammer Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Incline Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Incline Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Lying Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Alternate Lying Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate One Arm Standing Palms In Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Rear Delt Fly on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Reverse Fly on Incline Bench",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Seated Arnold Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Seated Bent Over Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Alternate Seated Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Seated Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternate Seated Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Seated Palms In Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Seated Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Standing Arnold Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternate Standing Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternating Arnold Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternating Bicep Curl with Leg Raised on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Alternating Cobra Prone Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Alternating Deltoid Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternating Lateral Raise on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Alternating Seated Bicep Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Arnold Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Around the Worlds",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Bench One Leg Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Bent Arm Pullover",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Bent Over Delt Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Bent Over Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Bicep Curl Lunge with Bowling Motion",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Bicep Curl on Exercise Ball with Leg Raised",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Bicep Curl With Stork Stance",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Biceps Curl Reverse",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Biceps Curl Squat",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Biceps Curl V Sit on Dome",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Close Grip Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Cobra Prone on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Concentration Curls",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Cross Body Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Cuban Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Deadlift",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Decline Bench Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Decline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Decline Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Decline One Arm Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Decline One Arm Hammer Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Decline Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Decline Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Decline Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Double Incline Shoulder Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell External Rotation",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Flexor Incline Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Forward Lunge Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Forward Lunge with Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Front Incline Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Front Two Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Hammer Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Hammer Curls",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Hammer Grip Incline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Hamstring Curl",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell High Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Incline Bench Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Incline Bench Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Incline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline Bench Two Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Incline Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Incline Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline Fly With A Twist",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline Hammer Curls",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Incline Hammer Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline One Arm Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline One Arm Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline One Arm Hammer Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline One Arm Hammer Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline One Arm Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline One Arm Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Incline Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Incline Two Arm Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Iron Cross",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Jumping Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Kickbacks on Exercise Ball",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Kneeling Bicep Curl Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Kneeling Lateral Raise on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lateral Lunge with Bicep Curl",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lateral Raises on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lunges",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Lying Across Face Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Lying One Arm Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lying One Arm Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lying Pronation",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Lying Pullover on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Lying Rear Delt Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lying Rear Delt Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Lying Rear Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lying Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Lying Single Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Lying Supination",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Lying Supine Biceps Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Lying Supine Two Arm Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Lying Triceps Extension ",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Lying Wide Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Middle Back Shrug",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Neutral Wrist Curl Over Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Arnold Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Bench Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Bent Over Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Chest Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Decline Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm French Press on Exercise Ball",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell One Arm Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Front Raise on Incline Bench",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Hammer Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Hammer Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Hammer Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Incline Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Incline Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Lateral Raise on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Lying Rear Delt Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell One Arm Lying Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Neutral Wrist Curl Over Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Prone Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Prone Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Pullover",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell One Arm Pullover on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Rear Delt Fly on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Reverse Fly on Incline Bench",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Reverse Grip Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Arm Reverse Preacher Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Reverse Spider Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Reverse Wrist Curl Over Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Arnold Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Bent Over Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Bicep Curl on Exercise Ball ",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Neutral Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Reverse Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Seated Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Shoulder Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Side Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Standing Arnold Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Standing Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Standing Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Standing Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Arm Standing Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Standing Palms In Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Supinated Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell One Arm Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell One Arm Up Right Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell One Arm Wrist Curl Over Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell One Arm Zottman Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell One Leg Fly on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell One Leg Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Palm Rotational Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Palms Down Wrist Curl Over A Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Palms In Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Palms In Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Palms In Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Palms In Incline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Palms Up Wrist Curl Over A Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Pile Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Power Partials",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Preacher Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Preacher Curl over Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Preacher Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Press on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Prone Alternating Rear Delt Row on Exercise Ball",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Prone Incline Biceps Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Prone Incline Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Prone One Arm Rear Delt Row on Exercise Ball",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Prone Rear Delt Row on Exercise Ball",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Prone Shoulder Raise on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Pullover Hip Extension on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Pullover on Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Rear Delt Fly on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Rear Delt Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Rear Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Reverse Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Reverse Concentration Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Reverse Flyes",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Reverse Flyes With External Rotation",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Reverse Grip Incline Bench One Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Reverse Grip Incline Bench Two Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dumbbell Reverse Preacher Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Reverse Spider Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Reverse Wrist Curl Over Bench",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Seated Alternate Bent Over Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Alternate Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Alternate Hammer Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Seated Alternate Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Alternating Shoulder Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Arnold Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Bent Over Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Bent Over Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Seated Bent Over Two Arm Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Seated Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Seated Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Dumbbell Seated Concentration Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Seated Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Seated Dublin Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Hammer Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Seated Inner Biceps Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Seated Neutral Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Seated One Arm Bent Over Reverse Fly",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated One Arm Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated One Arm Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated One Arm One Leg Bicep Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Seated One Leg Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Dumbbell Seated Palms Down One Arm Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Seated Palms In Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Palms Up One Arm Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Seated Palms Up Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Seated Palms-Down Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Seated Reverse Grip One Arm Overhead Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Seated Reverse Grip Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Reverse Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Seated Shoulder Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Side Bend",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Seated Side Lateral Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Seated Triceps Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell See Saw Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Shoulder Press on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Shoulder Raise on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Shoulder Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Shrugs on Exercise Ball",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Side Bend",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Single Arm Pronated Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Single Arm Supinated Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Sit Up On Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Spider Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Split Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Squat To A Bench",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Standing Alternate Front Raises",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing Alternate Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing Alternate Reverse Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Standing Alternating Tricep Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Standing Arnold Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing Bent Over One Arm Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Standing Bent Over Two Arm Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Standing Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Dumbbell Standing Dublin Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing One Arm Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing One Arm Reverse Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Standing One Arm Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Standing One Leg Cobra",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Standing One-Arm  Curl Over Incline Bench",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Standing Palms In One Arm Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing Palms In Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing Reverse Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Dumbbell Standing Straight Arm Front Delt Raise Above Head",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Standing Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Standing Triceps Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Step Up Single Leg Balance with Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Step Ups",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Stiff Leg Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Stiff Leg Deadlift on Bench",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Stiff-Legged Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Straight Arm Pullover",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Dumbbell Tate Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Tricep Kickback",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Tricep Kickback With Stork Stance",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Twisting Bench Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Dumbbell Twisting Decline Sit Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Twisting Standing Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Two Arm Seated Hammer Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dumbbell Two Arm Side Bend",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Upright Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Dumbbell Walking Lunges",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Wall Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Dumbbell Wood Chops",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Dumbbell Zottman Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Dynamic Back Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Dynamic Chest Stretch",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Eagle Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Elbow Circles",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Elbows Back Stretch",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Elliptical Training",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Exercise Ball Ab Curl",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Alternating Arm Ups",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Alternating One Arm Bridge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Back Extension With Arms Extended",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Back Extension With Hands Behind Head",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Back Extension With Knees Off Ground",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Back Extension With Rotation",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Back Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Back Wall Circles",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Chest Stretch",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Exercise Ball Cross Legged Bridge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Cross Legged Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Exercise Ball Extended Arms Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Hand and Foot Exchange",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Hip Flexor Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Exercise Ball Hip Roll",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Hip Thrust Bridge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Hug",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Hundreds",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Incline Ab Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Jack Knife Push Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Knee Roll",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Lat Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Leg Lifts",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Lower Back Prone Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Lower Back Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Lying Side Lat Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Lying Side Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Narrow Push Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Exercise Ball Oblique Curl",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball on the Wall Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Exercise Ball One Leg Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball One Leg Prone Lower Body Rotation",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball One Legged Bridge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball One Legged Diagonal Kick Hamstring Curl",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Exercise Ball Pike Pushup ",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Exercise Ball Plank With Side Kick",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Prone Leg Raise",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Pull In",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Pyramid",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Exercise Ball Reverse Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Reverse Supine Bridge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Reverse Trunk Curl",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Roll Down",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Roman Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Seated Hamstring Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Exercise Ball Seated Head Tilt",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Seated Neck Extensor Stretch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Exercise Ball Seated Neck Flexor Stretch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Exercise Ball Seated Pelvic Circles",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Seated Quad Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Exercise Ball Seated Side Bend",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Seated Triceps Stretch",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Exercise Ball Side Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Side Crunch Against Wall",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Side Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Standing Hamstring Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Exercise Ball Straight Legged Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Supine Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Exercise Ball Traveling Lunge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Tricep Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Exercise Ball V Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Wall Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Exercise Ball Weighted Sit Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Exercise Ball Wood Chops",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Extended Arm Child Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "EZ Bar Close Grip Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "EZ Bar Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "EZ Bar Decline Close Grip Skull Crusher",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar Decline Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar French Press on Exercise Ball",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar Incline Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar Lying Close Grip Behind the Head Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar Reverse Grip Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "EZ Bar Reverse Grip French Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar Reverse Grip Preacher Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "EZ Bar Seated Close Grip Concentration Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "EZ Bar Seated Reverse Grip French Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar Standing French Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "EZ Bar Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Field Sports",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Fish Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Flat Bench Leg Pull In",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Flat Bench Lying Leg Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Flutter Kick",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Freehand Jump Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Frog Sit Ups",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Front Leg Raises",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Front Step Up",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Full Range Of Motion Lat Pulldown",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Gironda Sternum Chin Ups",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Glute Kickback ",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Gorilla Chin Up with Crunch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Hack Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Hack One Leg Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Hack Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Hack Squat with Narrow Stance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Half Moon Stretch on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hammer Grip Pull Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Hamstring Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Handstand Pushups",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Hanging Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hanging Leg Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hanging Pike",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hanging Rotated Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hare Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hero Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hip Adduction",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Hip Flexor and Quad Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Hip Thrusts",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hug Knees to Chest",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Hundreds",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Hyperextensions - Back Extensions",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Hyperextensions With No Bench",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Incline Push Up Depth Jump",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Indoor Cycling",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Inline Skating",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Inverted Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Iron Cross Stretch",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Iso Lateral Wide Pulldown",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Isometric Chest Squeeze",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Jackknife Sit up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Jackknife Sit-Up On Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Janda Sit Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Jump Rope",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Kettlebell Advanced Windmill",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Kettlebell Alternating Floor Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Kettlebell Alternating Hang Clean",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Alternating Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Alternating Renegade Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Kettlebell Alternating Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Kettlebell Arnold Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Bent Press",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Kettlebell Bottoms Up Clean From The Hang Position",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Kettlebell Dead Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell Double Alternating Hang Clean",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Double Jerk",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Double Push Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Double Snatch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Double Windmill",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Kettlebell Extended Range One Arm Floor Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Kettlebell Figure Eight",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Kettlebell Front Squats",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell Goblet Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell Hang Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell One Arm Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell One Arm Clean And Jerk",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Floor Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Kettlebell One Arm Floor Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Jerk",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Military Press To The Side",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Overhead Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell One Arm Palm Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell One Arm Para Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Push Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Kettlebell One Arm Snatch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Split Jerk",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Split Snatch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell One Arm Swing",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell One Legged Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell Open Palm Clean",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell Pass Between The Legs",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Kettlebell Pistol Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kettlebell Plyo Pushups",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Kettlebell Seated Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Seesaw Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Sumo High Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Thruster",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Turkish Get Up Lunge",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Turkish Get Up Squat",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Two Arm Clean",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Two Arm Jerk",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Two Arm Military Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Kettlebell Two Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Kettlebell Windmill",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Knee Across The Body",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Knee Circles",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Knee Draw In",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Knee Hip Raise On Parallel Bars",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Knee Tuck Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kneeling Forearm Stretch",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Kneeling Hip Flexor",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kneeling Hip Flexor",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kneeling Jump Squat",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Kneeling Lat Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Kneeling Leg Curl",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Kneeling Side Bend",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Kneeling Squat",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Leg Extension with One Leg",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Extensions",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Lift",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Leg Over Floor Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Leg Press",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Press Machine",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Press Machine One Leg Press with Wide Stance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Press Machine With Narrow Stance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Press Machine With One Leg",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Press Machine With Wide Stance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Press with Narrow Stance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Press with Wide Stance",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leg Pull In",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Leg Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Leg Slide",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Leg Slide with One Leg",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Leg-Up Hamstring Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Leverage Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Leverage Decline Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Leverage Incline Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Leverage Machine High Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Leverage Machine Iso Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Leverage Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Leverage Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Locust Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Looking At Ceiling",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Lower Abdominal Hip Roll",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lower Back Curl",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Lying Alternate Floor Leg Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lying Alternate Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lying Cable Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lying Cable Knee Raise on Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lying Floor Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lying Heel Touches",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lying Hip Flexor",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Lying Leg Curls",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Lying Leg Raise with Hip Thrust on Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Lying Machine Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Lying to Side Plank",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Machine Assisted Chin Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Machine Assisted Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Machine Assisted Hammer Grip Pull Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Machine Assisted Pull Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Machine Curl With Hammer Grip",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Machine Curl With Reverse Grip",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Machine Decline Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Machine Deltoid Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Machine Fly",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Machine Incline Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Machine Inner Chest Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Machine Lat Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Machine Reverse Flyes",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Machine Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Machine T-Bar Reverse Grip Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Machine Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Medicine Ball Backward Throw",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Medicine Ball Biceps Curl on Exercise Ball",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Medicine Ball Catch and Overhead Throw",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Medicine Ball Chest Pass",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Medicine Ball Chest Push from 3 Point Stance",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Medicine Ball Chest Push Multiple Response",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Medicine Ball Chest Push Single Response",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Medicine Ball Chest Push with Run Release",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Medicine Ball Decline One Arm Overhead Throw",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Medicine Ball Decline Two Arm Overhead Throw",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Medicine Ball Full Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Medicine Ball Overhead Slam",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Medicine Ball Sit Up on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Medicine Ball Supine Chest Throw",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Medicine Ball Supine One Arm Overhead Throw",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Medicine Ball Supine Two Arm Overhead Throw",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Medicine Ball Throw On Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Middle Back Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Mighty Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Mixed Grip Chin Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Modified Push Up to Forearms",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Mountain Biking",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Mountain Climbers",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Narrow Grip Lat Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Neck Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Oblique Crunches",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Oblique Crunches with Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Oblique Raises on Parallel Bars",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "On Your Back Quad Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "On Your Side Quad Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "One Arm Against Wall",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "One Arm Chin Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "One Arm Iso Lateral High Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "One Arm Iso Lateral Wide Pulldown",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "One Armed Biased Push Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "One Half Locust",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "One Handed Hang",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "One Knee to Chest",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "One Leg 45 Degree Leg Press",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "One Leg Bodyweight Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "One Leg Calf Press on Leg Press",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "One Leg Donkey Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "One Leg Floor Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "One Leg Hack Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "One Leg Kickback",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "One Leg Reverse Hyper on Flat Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Opening Out Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Overhead Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Parallel Bar Leg Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Passive Opening Out Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Pelvic Tilt Into Bridge",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Peroneals Stretch",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Pilates",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Pin Presses",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Plank",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Plank on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Plank with Feet on Bench",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Plank with Side Kick",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Plyo Push-Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Posterior Capsule",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Posterior Tibialis Stretch",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Preacher Curl Machine",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Prisoner Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Pull Ups",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Push Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Push Up On Exercise Dome",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Push Up to Side Plank",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Push Up with Feet Elevated",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Push Up with Feet On An Exercise Ball",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Quad Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Reach and Catch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Rear Bodyweight Lunge",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Rear Leg Raises",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Reclining Big Toe Pose",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Recumbent Bike",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Reverse Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Reverse Grip Lat Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Reverse Grip Machine Lat Pull Down",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Reverse Grip Vertical Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Reverse Hack Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Reverse Hyper on Flat Bench",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Reverse Lying T Bar Machine Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Revolved Abdomen Pose Sequence",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Road Cycling",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Rocket Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Rocky Pull Ups and Pulldowns",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Roll Downs",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Roll Over on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Rolling",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Roman Chair Twisting Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Rowing",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Runner's Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Running",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Sage Twist 1",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Scalene",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Scissor Kick",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Scissors Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Scorpion",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Seated Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Seated Calf Stretch",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Seated Flat Bench Leg Pull In",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Seated Floor Hamstring Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Seated Glute",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Seated Hamstring and Calf Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Seated Hamstring Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Seated Hamstring Stretch on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Seated Leg Curl",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Seated Leg Curl with One Leg",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Seated Leg Tucks",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Seated Machine Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Seated One Leg Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Seated One Leg Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Seated Overhead Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Seated Tricep Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Seated Two Arm Palms Up Low Pulley Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Seated Wide Angle Pose Sequence",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Shell Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Shoulder Circles",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Shoulder Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Shoulder Raise Machine",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Shoulder Stretch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Side Angle Pose With Rotation",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Side Bridge",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Side Hop-Sprint",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Side Jackknife",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Side Step Up",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Side to Side Box Shuffle",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Side Wrist Pull",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Side-Lying Floor Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Single Bench Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Single Leg Butt Kick",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Single Leg Curl",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Single Leg Glute Bridge",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Single Leg Push-Off",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Single Leg Stride Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Sissy Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Sit Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Sit Up",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Smith Machine Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Smith Machine Bicep Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Smith Machine Close Grip Bench Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Smith Machine Close Grip Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Deadlift",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Smith Machine Decline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Decline Close Grip Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Frankenstein Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Smith Machine Front Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Smith Machine Good Morning",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Smith Machine Hack Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Smith Machine Incline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Incline Shoulder Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Incline Tricep Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Smith Machine Lunge",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Smith Machine One Arm Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Smith Machine One Leg Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Smith Machine Overhead Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Rear Delt Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Reverse Calf Raises",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Smith Machine Reverse Close Grip Bench Press",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Smith Machine Reverse Decline Close Grip Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Reverse Grip Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Reverse Grip Bent Over Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Smith Machine Reverse Grip Incline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Seated One Leg Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Smith Machine Seated Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Smith Machine Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Shoulder Press Behind the Neck",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Single Leg Split Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Smith Machine Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Smith Machine Squat to Bench",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Smith Machine Standing Behind the Back Wrist Curl",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Smith Machine Stiff Legged Deadlift",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Smith Machine Toe Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Smith Machine Upright Row",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Wide Grip Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Wide Grip Decline Bench Press",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Smith Machine Wide Grip Shoulder Press",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Smith Machine Zercher Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Sphinx",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Spinal Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Spine Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Spine Twist",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Split Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Staff Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Standing Adductor",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Standing Biceps Stretch",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Standing Calf Raises",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Standing Elevated Quad Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Standing Gastrocnemius",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Standing Gastrocnemius Calf Stretch",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Standing Glute Kickback",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Standing Half Moon",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Standing Hamstring and Calf Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Standing Hip Flexors",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Standing Lateral Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Standing Long Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Standing One Arm One Leg Opposite Reach",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Standing One Leg Bodyweight Calf Raise",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Standing Pelvic Tilt",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Standing Quadriceps Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Standing Soleus And Achilles Stretch",
+    "exercise_type": "Calves"
+  },
+  {
+    "title": "Standing Straight Leg Hamstring Contract Relax on Exercise Ball",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Standing Toe Touches",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Star Jump",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Stationary Bike",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Step Machine",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Stork Stance",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Stork Stance with Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Straddle Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Straight Leg Heel on Toe",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Straight Leg Outer Hip Abductor",
+    "exercise_type": "Glutes"
+  },
+  {
+    "title": "Sun Salutation",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Superman",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Superman Leg Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Supine Ab Crunch Machine",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Supine Hamstring Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Supine Knee to Chest",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Supine Straight Leg Hamstring Stretch on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Swimming",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "T Bar Lying Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "T Bar Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Table Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Thigh Abductor",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Thigh Adductor",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Three Bench Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Toe Touchers",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Torso Rotation",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Towel Standing Triceps Extension",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Transverse Step Up",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Treadmill Running",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Triangle Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Tricep Side Stretch",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Tricep Stretch",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Triceps Pushdown V Bar",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Tuck Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Turtle Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Twisting Floor Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Twisting Hanging Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Twisting Lying Cable Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Two Leg Slide",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Two Legged Supine Knee to Chest",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Unilateral Row",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Upper Back Stretch",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Upward Facing Bow Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Upward Facing Dog",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Upward Stretch",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "V Bar Pull Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "V Ups",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Walking",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Warrior 2 Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Warrior 3 Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Warrior Pose",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weight Plate  Decline Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weight Plate Around the World Decline Crunch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weight Plate Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Weight Plate High Front Raise",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Weight Plate Hyperextensions on Exercise Ball",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Weight Plate Lying Face Down Neck Resistance",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Weight Plate Lying Face Up Neck Resistance",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Weight Plate Oblique Twists",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weight Plate One Arm Shrug",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Weight Plate Pinch",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Weight Plate Pullover on Exercise Ball",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Weight Plate Reverse Curl",
+    "exercise_type": "Biceps"
+  },
+  {
+    "title": "Weight Plate Russian Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weight Plate Shrugs",
+    "exercise_type": "Shoulders"
+  },
+  {
+    "title": "Weight Plate Side Bend",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weight Plate Side Bend on Exercise Ball",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weight Plate Sissy Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Weight Plate Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Weight Plate Standing Hand Squeeze",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Weight Plate Twist",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weighted Bench Dip",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Weighted Crunches",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weighted Drop Push Up",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Weighted Exercise Ball Wall Squat",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Weighted Hanging Knee Raise",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weighted Pull Ups",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Weighted Side Touches",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Weighted Three Bench Dips",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Weighted Tricep Dips",
+    "exercise_type": "Triceps"
+  },
+  {
+    "title": "Wide Grip Lat Pulldown",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Wide Grip Pulldown Behind The Neck",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Wide Grip Rear Pull-Up",
+    "exercise_type": "Back"
+  },
+  {
+    "title": "Wide Hand Pushup",
+    "exercise_type": "Chest"
+  },
+  {
+    "title": "Wide Leg Stretch",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "Windshield Wipers",
+    "exercise_type": "Abs"
+  },
+  {
+    "title": "World's Greatest Stretch",
+    "exercise_type": "Quads"
+  },
+  {
+    "title": "Wrist Circles",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Wrist Roller",
+    "exercise_type": "Forearms"
+  },
+  {
+    "title": "Yoga",
+    "exercise_type": "Cardio"
+  },
+  {
+    "title": "Z Pose",
+    "exercise_type": "Abs"
+  }
+]
