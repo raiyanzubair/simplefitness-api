@@ -29,7 +29,11 @@ func (e *Exercise) sliceToMap(arr []*model.Exercise) map[string]*model.Exercise 
 
 // GetAll handles the route for getting all exercises
 func (e *Exercise) GetAll(w http.ResponseWriter, r *http.Request) {
-	arr, _ := e.uc.GetAll()
+	arr, err := e.uc.GetAll()
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 	dict := e.sliceToMap(arr)
 
 	json.NewEncoder(w).Encode(dict)
