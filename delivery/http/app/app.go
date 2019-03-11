@@ -31,7 +31,7 @@ func New() (*App, error) {
 	})
 
 	// Initialise our postgres db
-	connStr := os.Getenv("DB_URasdsdsL")
+	connStr := os.Getenv("DATABASE_URL")
 	if connStr == "" {
 		connStr = "user=raiyanzubair dbname=simplefitness sslmode=disable"
 	}
