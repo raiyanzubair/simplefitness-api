@@ -32,7 +32,9 @@ func New() (*App, error) {
 
 	// Initialise our postgres db
 	connStr := os.Getenv("DATABASE_URL")
-	if connStr == "" {
+	env := os.Getenv("GO_ENV")
+	if connStr == "" || env == "development" {
+		fmt.Println("We in dev")
 		connStr = "user=raiyanzubair dbname=simplefitness sslmode=disable"
 	}
 
