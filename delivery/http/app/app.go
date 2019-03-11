@@ -42,6 +42,7 @@ func New() (*App, error) {
 	if err != nil {
 		return nil, err
 	}
+	defer db.Close()
 
 	// Init Repository Interfaces
 	userRepo := repository.NewUserRepo(db)

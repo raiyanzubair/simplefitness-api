@@ -1,10 +1,11 @@
 package main
 
 import (
-	"database/sql"
 	"encoding/json"
 	"fmt"
+	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
+	"github.com/rubenv/sql-migrate"
 	"io/ioutil"
 	"os"
 )
@@ -29,12 +30,38 @@ func mapTypeToID(title interface{}) int {
 
 func main() {
 
-	db, err := sql.Open("postgres", "user=raiyanzubair dbname=simplefitness sslmode=disable")
+	connStr := os.Getenv("DATABASE_URL")
+	env := os.Getenv("GO_ENV")
+	if connStr == "" || env == "development" {
+		fmt.Println("We in dev")
+		connStr = "user=raiyanzubair dbname=simplefitness sslmode=disable"
+	}
+
+
+	db, err := sqlx.Open("postgres", connStr)
 	if err != nil {
 		fmt.Print(err)
 	}
 	defer db.Close()
 
+	//Migrate down and back up
+	migrations := &migrate.FileMigrationSource{
+		Dir: "migrations",
+	}
+	n, err := migrate.Exec(db.DB, "postgres", migrations, migrate.Down)
+	if err != nil {
+		fmt.Print(n, err)
+	}
+	fmt.Println("Migrated Down")
+
+	n, err = migrate.Exec(db.DB, "postgres", migrations, migrate.Up)
+	if err != nil {
+		fmt.Print(n, err)
+	}
+	fmt.Println("Migrated Up")
+
+
+	//Begin seeding data
 	jsonFile, err := os.Open("database/data/exercise_types.json")
 	defer jsonFile.Close()
 	if err != nil {
@@ -45,8 +72,13 @@ func main() {
 	var result []map[string]interface{}
 	json.Unmarshal(byteValue, &result)
 	for _, item := range result {
-		db.Exec("INSERT INTO exercise_types (title) VALUES ($1)", item["title"])
+		res, err := db.Exec("INSERT INTO exercise_types (title) VALUES ($1)", item["title"])
+		if err != nil {
+			fmt.Print(res)
+			fmt.Print(err)
+		}
 	}
+	fmt.Println("Seeded Exercise Types")
 
 	jsonFile, err = os.Open("database/data/exercises.json")
 	defer jsonFile.Close()
@@ -56,4 +88,5 @@ func main() {
 		ID := mapTypeToID(item["exercise_type"])
 		db.Exec("INSERT INTO exercises (title, exercise_type) VALUES ($1, $2)", item["title"], ID)
 	}
+	fmt.Println("Seeded Exercises")
 }
