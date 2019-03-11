@@ -39,12 +39,25 @@
 			"Rev": "9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee"
 		},
 		{
+			"ImportPath": "github.com/rubenv/sql-migrate",
+			"Rev": "1007f53448d75fe14190968f5de4d95ed63ebb83"
+		},
+		{
+			"ImportPath": "github.com/rubenv/sql-migrate/sqlparse",
+			"Rev": "1007f53448d75fe14190968f5de4d95ed63ebb83"
+		},
+		{
 			"ImportPath": "golang.org/x/crypto/bcrypt",
 			"Rev": "8dd112bcdc25174059e45e07517d9fc663123347"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/blowfish",
 			"Rev": "8dd112bcdc25174059e45e07517d9fc663123347"
+		},
+		{
+			"ImportPath": "gopkg.in/gorp.v1",
+			"Comment": "v1.7.2",
+			"Rev": "6a667da9c028871f98598d85413e3fc4c6daa52e"
 		}
 	]
 }
