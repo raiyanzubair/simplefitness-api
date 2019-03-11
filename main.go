@@ -12,7 +12,7 @@ func main() {
 	log.Print("Running")
 
 	myApp, _ := app.New()
-	port := os.Getenv("APP_PORT")
+	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8000"
 	}

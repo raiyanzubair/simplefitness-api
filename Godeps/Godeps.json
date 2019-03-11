@@ -1,0 +1,50 @@
+{
+	"ImportPath": "simplefitnessApi",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/dgrijalva/jwt-go",
+			"Comment": "v3.2.0-4-g3af4c74",
+			"Rev": "3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8"
+		},
+		{
+			"ImportPath": "github.com/go-chi/chi",
+			"Comment": "v4.0.2-2-g7eb231e",
+			"Rev": "7eb231e7fe03ac71ffb8659376bdbf15d2d42263"
+		},
+		{
+			"ImportPath": "github.com/go-chi/chi/middleware",
+			"Comment": "v4.0.2-2-g7eb231e",
+			"Rev": "7eb231e7fe03ac71ffb8659376bdbf15d2d42263"
+		},
+		{
+			"ImportPath": "github.com/jmoiron/sqlx",
+			"Comment": "v1.2.0-6-g82935fa",
+			"Rev": "82935fac6c1a317907c8f43ed3f7f85ea844a78b"
+		},
+		{
+			"ImportPath": "github.com/jmoiron/sqlx/reflectx",
+			"Comment": "v1.2.0-6-g82935fa",
+			"Rev": "82935fac6c1a317907c8f43ed3f7f85ea844a78b"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "v1.0.0-6-g9eb73ef",
+			"Rev": "9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "v1.0.0-6-g9eb73ef",
+			"Rev": "9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Rev": "8dd112bcdc25174059e45e07517d9fc663123347"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Rev": "8dd112bcdc25174059e45e07517d9fc663123347"
+		}
+	]
+}
