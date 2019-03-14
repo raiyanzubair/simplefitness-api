@@ -29,7 +29,10 @@ func (we *WorkoutExercise) sliceToMap(arr []*model.WorkoutExercise) map[string]*
 
 // GetAll handles the route for getting all workout exercises
 func (we *WorkoutExercise) GetAll(w http.ResponseWriter, r *http.Request) {
-	arr, _ := we.uc.GetAll()
+	arr, err := we.uc.GetAll()
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
 	dict := we.sliceToMap(arr)
 	json.NewEncoder(w).Encode(dict)
 }
@@ -38,12 +41,12 @@ func (we *WorkoutExercise) GetAll(w http.ResponseWriter, r *http.Request) {
 func (we *WorkoutExercise) GetByID(w http.ResponseWriter, r *http.Request) {
 	exerciseID, err := strconv.Atoi(chi.URLParam(r, "exerciseID"))
 	if err != nil {
-		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	exercise, err := we.uc.GetByID(exerciseID)
 	if err != nil {
-		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	json.NewEncoder(w).Encode(exercise)

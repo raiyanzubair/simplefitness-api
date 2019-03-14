@@ -39,15 +39,29 @@ func (wo *Workout) GetAll(w http.ResponseWriter, r *http.Request) {
 func (wo *Workout) GetByID(w http.ResponseWriter, r *http.Request) {
 	workoutID, err := strconv.Atoi(chi.URLParam(r, "workoutID"))
 	if err != nil {
-		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	exercise, err := wo.uc.GetByID(workoutID)
 	if err != nil {
-		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	json.NewEncoder(w).Encode(exercise)
+}
+
+// GetUserWorkouts handles the route for getting  a
+func (wo *Workout) GetUserWorkouts(w http.ResponseWriter, r *http.Request) {
+	userID, err := strconv.Atoi(chi.URLParam(r, "userID"))
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	workouts, err := wo.uc.GetByCreator(userID)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+	json.NewEncoder(w).Encode(workouts)
 }
 
 // Create handles the route for creating a workout
@@ -66,7 +80,7 @@ func (wo *Workout) Create(w http.ResponseWriter, r *http.Request) {
 func (wo *Workout) Delete(w http.ResponseWriter, r *http.Request) {
 	workoutID, err := strconv.Atoi(chi.URLParam(r, "workoutID"))
 	if err != nil {
-		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	err = wo.uc.Delete(workoutID)

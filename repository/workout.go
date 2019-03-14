@@ -19,28 +19,56 @@ func NewWorkoutRepo(db *sqlx.DB) *Workout {
 
 // GetAll returns all Workouts
 func (repo *Workout) GetAll() ([]*model.Workout, error) {
-	arr := []*model.Workout{}
-	err := repo.db.Select(&arr, "SELECT id, title workouts FROM Workout")
+	workouts := []*model.Workout{}
+	query := `
+		SELECT * FROM workouts
+	`
+	err := repo.db.Select(&workouts, query)
 	if err != nil {
+		return nil, err
+	}
+	return workouts, nil
+}
+
+// GetByID returns a specific Workout and its associated exercises
+func (repo *Workout) GetByID(id int) (*model.Workout, error) {
+	//Get workouts
+	workout := model.Workout{}
+	query := `
+		SELECT * FROM workouts
+		WHERE id = $1
+	`
+	err := repo.db.Get(&workout, query, id)
+	if err != nil {
+		fmt.Printf(err.Error())
+		return nil, err
+	}
+
+	return &workout, nil
+}
+
+// GetByCreator returns Workouts for a specific user
+func (repo *Workout) GetByCreator(creatorID int) ([]*model.Workout, error) {
+	arr := []*model.Workout{}
+	query := `
+		SELECT * FROM workouts 
+		WHERE creator = $1
+	`
+	err := repo.db.Select(&arr, query, creatorID)
+	if err != nil {
+		fmt.Printf(err.Error())
 		return nil, err
 	}
 	return arr, nil
 }
 
-// GetByID returns a specific Workout
-func (repo *Workout) GetByID(id int) (*model.Workout, error) {
-	item := model.Workout{}
-	err := repo.db.Get(&item, "SELECT id, title FROM workouts WHERE id = $1", id)
-	if err != nil {
-		fmt.Printf(err.Error())
-		return nil, err
-	}
-	return &item, nil
-}
-
 // Create will create insert a new workout into the db and return it
 func (repo *Workout) Create(newWorkout *model.Workout) (*model.Workout, error) {
-	result := repo.db.QueryRow("INSERT INTO workouts (title, day, creator) VALUES ($1, $2, $3) RETURNING id",
+	query := `
+		INSERT INTO workouts (title, day, creator) 
+		VALUES ($1, $2, $3) RETURNING id
+	`
+	result := repo.db.QueryRow(query,
 		newWorkout.Title,
 		newWorkout.Day,
 		newWorkout.CreatorID,
@@ -53,7 +81,11 @@ func (repo *Workout) Create(newWorkout *model.Workout) (*model.Workout, error) {
 
 // Delete removes a workout from the db
 func (repo *Workout) Delete(id int) error {
-	result, err := repo.db.Exec("DELETE FROM workout WHERE id = $1", id)
+	query := `
+		DELETE FROM workout
+		WHERE id = $1
+	`
+	result, err := repo.db.Exec(query, id)
 	if err != nil {
 		return err
 	}

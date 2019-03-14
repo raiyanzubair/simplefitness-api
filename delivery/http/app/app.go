@@ -7,7 +7,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"net/http"
 	"os"
-	"simplefitnessApi/delivery/http/auth"
+	// "simplefitnessApi/delivery/http/auth"
 	"simplefitnessApi/delivery/http/handler"
 	"simplefitnessApi/repository"
 	"simplefitnessApi/usecase"
@@ -54,7 +54,7 @@ func New() (*App, error) {
 	userUsecase := usecase.NewUserUsecase(userRepo)
 	exerciseUsecase := usecase.NewExerciseUsecase(exerciseRepo)
 	exerciseTypeUsecase := usecase.NewExerciseTypeUsecase(exerciseTypeRepo)
-	workoutUsecase := usecase.NewWorkoutUsecase(workoutRepo)
+	workoutUsecase := usecase.NewWorkoutUsecase(workoutRepo, workoutExerciseRepo, exerciseRepo)
 	workoutExerciseUsecase := usecase.NewWorkoutExerciseUsecase(workoutExerciseRepo)
 
 	// Init Handler Interfaces
@@ -64,9 +64,14 @@ func New() (*App, error) {
 	workoutHandler := handler.NewWorkoutHandler(workoutUsecase)
 	workoutExerciseHandler := handler.NewWorkoutExerciseHandler(workoutExerciseUsecase)
 
-	r.Route("/auth", func(r chi.Router) {
+	r.Route("/user", func(r chi.Router) {
 		r.Post("/signin", authHandler.HandleSignIn)
 		r.Post("/signup", authHandler.HandleSignUp)
+
+		r.Route("/{userID}", func(r chi.Router) {
+			r.Get("/", authHandler.GetUser)
+			r.Get("/workout", workoutHandler.GetUserWorkouts)
+		})
 	})
 
 	r.Route("/exercise", func(r chi.Router) {
@@ -86,7 +91,7 @@ func New() (*App, error) {
 	})
 
 	r.Route("/workout", func(r chi.Router) {
-		r.Use(auth.ValidateJWTMiddleware)
+		// r.Use(auth.ValidateJWTMiddleware)
 
 		r.Get("/", workoutHandler.GetAll)
 		r.Post("/", workoutHandler.Create)

@@ -19,7 +19,13 @@ func NewExerciseRepo(db *sqlx.DB) *Exercise {
 // GetAll returns all exercises
 func (repo *Exercise) GetAll() ([]*model.Exercise, error) {
 	arr := []*model.Exercise{}
-	err := repo.db.Select(&arr, "SELECT id, title, exercise_type FROM exercises")
+	query := `
+		SELECT e.id, e.title, et.id as "exercise_type.id", et.title as "exercise_type.title"
+		FROM exercises as e 
+		JOIN exercise_types as et 
+		ON e.exercise_type = et.id	
+	`
+	err := repo.db.Select(&arr, query)
 	if err != nil {
 		return nil, err
 	}
@@ -29,7 +35,14 @@ func (repo *Exercise) GetAll() ([]*model.Exercise, error) {
 // GetByID returns a specific Exercise
 func (repo *Exercise) GetByID(id int) (*model.Exercise, error) {
 	item := model.Exercise{}
-	err := repo.db.Get(&item, "SELECT id, title, exercise_type FROM exercises WHERE id=$1", id)
+	query := `
+		SELECT e.id, e.title, et.id as "exercise_type.id", et.title as "exercise_type.title"
+		FROM exercises as e 
+		JOIN exercise_types as et 
+		ON e.exercise_type = et.id
+		WHERE e.id = $1
+	`
+	err := repo.db.Get(&item, query, id)
 	if err != nil {
 		return nil, err
 	}

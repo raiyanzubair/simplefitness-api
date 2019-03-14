@@ -18,24 +18,24 @@ type Auth struct {
 	uc *usecase.User
 }
 
-// NewAuthHandler returns a new handler fzor auth requests
+// NewAuthHandler returns a new handler for auth requests
 func NewAuthHandler(uc *usecase.User) *Auth {
 	return &Auth{uc}
 }
 
-// GetUser returns details for a specifc user
+// GetUser returns details for a specific user
 func (au *Auth) GetUser(w http.ResponseWriter, r *http.Request) {
 	userID, err := strconv.Atoi(chi.URLParam(r, "userID"))
 	if err != nil {
 		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
 		return
 	}
-	exercise, err := au.uc.GetByID(userID)
+	user, err := au.uc.GetByID(userID)
 	if err != nil {
 		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
 		return
 	}
-	js, _ := json.Marshal(exercise)
+	js, _ := json.Marshal(user)
 	w.Write(js)
 }
 
@@ -115,4 +115,8 @@ func (au *Auth) HandleSignUp(w http.ResponseWriter, r *http.Request) {
 	})
 	js, _ := json.Marshal(created)
 	w.Write(js)
+}
+
+func (au *Auth) handle(w http.ResponseWriter, r *http.Request) {
+
 }
