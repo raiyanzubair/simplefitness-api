@@ -1,12 +1,13 @@
 package main
 
 import (
+	"database/sql"
 	"encoding/json"
-	"fmt"
-	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 	"github.com/rubenv/sql-migrate"
+	"gopkg.in/testfixtures.v2"
 	"io/ioutil"
+	"log"
 	"os"
 )
 
@@ -33,52 +34,62 @@ func main() {
 	connStr := os.Getenv("DATABASE_URL")
 	env := os.Getenv("GO_ENV")
 	if connStr == "" || env == "development" {
-		fmt.Println("We in dev")
+		log.Println("We in dev")
 		connStr = "user=raiyanzubair dbname=simplefitness sslmode=disable"
 	}
 
-
-	db, err := sqlx.Open("postgres", connStr)
+	db, err := sql.Open("postgres", connStr)
 	if err != nil {
-		fmt.Print(err)
+		log.Fatal(err)
 	}
 	defer db.Close()
+
+	testDb, err := sql.Open("postgres", "user=raiyanzubair dbname=simplefitness_test sslmode=disable")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer testDb.Close()
 
 	//Migrate down and back up
 	migrations := &migrate.FileMigrationSource{
 		Dir: "migrations",
 	}
-	n, err := migrate.Exec(db.DB, "postgres", migrations, migrate.Down)
+	_, err = migrate.Exec(db, "postgres", migrations, migrate.Down)
 	if err != nil {
-		fmt.Print(n, err)
+		log.Fatal(err)
 	}
-	fmt.Println("Migrated Down")
-
-	n, err = migrate.Exec(db.DB, "postgres", migrations, migrate.Up)
+	log.Println("Migrated Down")
+	_, err = migrate.Exec(testDb, "postgres", migrations, migrate.Down)
 	if err != nil {
-		fmt.Print(n, err)
+		log.Fatal(err)
 	}
-	fmt.Println("Migrated Up")
+	log.Println("Migrated Down for test db")
 
+	_, err = migrate.Exec(db, "postgres", migrations, migrate.Up)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Println("Migrated Up")
+	_, err = migrate.Exec(testDb, "postgres", migrations, migrate.Up)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Println("Migrated Up for test db")
 
 	//Begin seeding data
 	jsonFile, err := os.Open("database/data/exercise_types.json")
 	defer jsonFile.Close()
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
 		return
 	}
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 	var result []map[string]interface{}
 	json.Unmarshal(byteValue, &result)
 	for _, item := range result {
-		res, err := db.Exec("INSERT INTO exercise_types (title) VALUES ($1)", item["title"])
-		if err != nil {
-			fmt.Print(res)
-			fmt.Print(err)
-		}
+		db.Exec("INSERT INTO exercise_types (title) VALUES ($1)", item["title"])
 	}
-	fmt.Println("Seeded Exercise Types")
+	log.Println("Seeded Exercise Types")
 
 	jsonFile, err = os.Open("database/data/exercises.json")
 	defer jsonFile.Close()
@@ -88,5 +99,23 @@ func main() {
 		ID := mapTypeToID(item["exercise_type"])
 		db.Exec("INSERT INTO exercises (title, exercise_type) VALUES ($1, $2)", item["title"], ID)
 	}
-	fmt.Println("Seeded Exercises")
+	log.Println("Seeded Exercises")
+
+	generateFixturesForTesting(db)
+}
+
+func generateFixturesForTesting(db *sql.DB) {
+	err := testfixtures.GenerateFixturesForTables(
+		db,
+		[]*testfixtures.TableInfo{
+			&testfixtures.TableInfo{Name: "exercise_types"},
+			&testfixtures.TableInfo{Name: "exercises"},
+		},
+		&testfixtures.PostgreSQL{},
+		"database/fixtures/",
+	)
+	if err != nil {
+		log.Fatalf("Error generating fixtures: %v", err)
+	}
+	log.Print("GENERATED FIXTURES")
 }

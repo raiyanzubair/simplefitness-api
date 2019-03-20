@@ -4,16 +4,16 @@ package model
 type User struct {
 	ID             int    `db:"id" json:"id"`
 	Email          string `db:"email" json:"email"`
-	Password       string `json:"password"`
-	HashedPassword string `db:"hashed_password" json:"hashed_password"`
-	CreatedAt      string `db:"created_at" json:"created_at"`
-	UpdatedAt      string `db:"updated_at" json:"updated_at"`
+	Password       string `json:"-"`
+	HashedPassword string `db:"hashed_password" json:"-"`
+	CreatedAt      string `db:"created_at" json:"-"`
+	UpdatedAt      string `db:"updated_at" json:"-"`
 }
 
 // Workout Model
 type Workout struct {
 	ID        int               `db:"id" json:"id"`
-	Title     *string           `db:"title" json:"title"`
+	Title     string            `db:"title" json:"title"`
 	Day       int               `db:"day" json:"day"`
 	CreatorID int               `db:"creator" json:"creator"`
 	Exercises []WorkoutExercise `json:"exercises"`
@@ -21,15 +21,15 @@ type Workout struct {
 
 // Exercise Model
 type Exercise struct {
-	ID           int     `db:"id" json:"id"`
-	Title        *string `db:"title" json:"title"`
+	ID           int    `db:"id" json:"id"`
+	Title        string `db:"title" json:"title"`
 	ExerciseType `db:"exercise_type" json:"exercise_type"`
 }
 
 // ExerciseType Model
 type ExerciseType struct {
-	ID    int     `db:"id" json:"id"`
-	Title *string `db:"title" json:"title"`
+	ID    int    `db:"id" json:"id"`
+	Title string `db:"title" json:"title"`
 }
 
 // WorkoutExercise Model
