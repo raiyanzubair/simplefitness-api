@@ -35,9 +35,23 @@ type ExerciseType struct {
 // WorkoutExercise Model
 type WorkoutExercise struct {
 	ID        int `db:"id" json:"id"`
-	Sets      int `db:"sets" json:"sets"`
-	Reps      int `db:"reps" json:"reps"`
 	WorkoutID int `db:"workout" json:"workout"`
 	Exercise  `db:"exercise" json:"exercise"`
-	// Exercises *Exercise
+	Sets      []WorkoutExerciseSet `json:"sets"`
+}
+
+// WorkoutExerciseSet Model
+type WorkoutExerciseSet struct {
+	ID                int     `db:"id" json:"id"`
+	WorkoutExerciseID int     `db:"workout_exercise" json:"workout_exercise"`
+	Reps              int     `db:"reps" json:"reps"`
+	Resistance        float64 `db:"resistance" json:"resistance"`
+	MeasurementUnit   `db:"measurement_unit" json:"measurement_unit"`
+	Duration          int `db:"duration" json:"duration"`
+}
+
+// MeasurementUnit Model
+type MeasurementUnit struct {
+	ID    int    `db:"id" json:"id"`
+	Title string `db:"title" json:"title"`
 }
