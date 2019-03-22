@@ -32,3 +32,12 @@ func (uc *Exercise) GetByID(id int) (*model.Exercise, error) {
 	}
 	return item, nil
 }
+
+// GetByName returns a specific Exercise
+func (uc *Exercise) GetByName(name string) ([]*model.Exercise, error) {
+	arr, err := uc.repo.GetByName(name)
+	if err != nil {
+		return nil, err
+	}
+	return arr, nil
+}

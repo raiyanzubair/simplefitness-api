@@ -2,6 +2,7 @@ package repository
 
 import (
 	"github.com/jmoiron/sqlx"
+	"log"
 	// "os"
 	"simplefitnessApi/model"
 )
@@ -47,4 +48,23 @@ func (repo *Exercise) GetByID(id int) (*model.Exercise, error) {
 		return nil, err
 	}
 	return &item, nil
+}
+
+// GetByName returns a specific Exercise
+func (repo *Exercise) GetByName(name string) ([]*model.Exercise, error) {
+	arr := []*model.Exercise{}
+	query := `
+		SELECT e.id, e.title, et.id as "exercise_type.id", et.title as "exercise_type.title"
+		FROM exercises as e 
+		JOIN exercise_types as et 
+		ON e.exercise_type = et.id
+		WHERE e.title LIKE '%' || $1 || '%'
+	`
+	log.Println("hello")
+	log.Println(name)
+	err := repo.db.Select(&arr, query, name)
+	if err != nil {
+		return nil, err
+	}
+	return arr, nil
 }

@@ -43,12 +43,12 @@ func (e *Exercise) GetAll(w http.ResponseWriter, r *http.Request) {
 func (e *Exercise) GetByID(w http.ResponseWriter, r *http.Request) {
 	exerciseID, err := strconv.Atoi(chi.URLParam(r, "exerciseID"))
 	if err != nil {
-		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	exercise, err := e.uc.GetByID(exerciseID)
 	if err != nil {
-		http.Error(w, "Sorry something went wrong!", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	json.NewEncoder(w).Encode(exercise)
