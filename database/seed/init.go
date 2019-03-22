@@ -11,24 +11,6 @@ import (
 	"os"
 )
 
-func mapTypeToID(title interface{}) int {
-	exerciseMap := map[interface{}]int{
-		"Chest":     1,
-		"Back":      2,
-		"Shoulders": 3,
-		"Biceps":    4,
-		"Triceps":   5,
-		"Forearms":  6,
-		"Quads":     7,
-		"Calves":    8,
-		"Glutes":    9,
-		"Abs":       10,
-		"Cardio":    11,
-		"Other":     12,
-	}
-	return exerciseMap[title]
-}
-
 func main() {
 
 	connStr := os.Getenv("DATABASE_URL")
@@ -50,33 +32,33 @@ func main() {
 	}
 	defer testDb.Close()
 
+	performMigrations(db)
+	performMigrations(testDb)
+
+	performSeeding(db)
+
+	generateFixturesForTesting(db)
+}
+
+func performMigrations(db *sql.DB) {
 	//Migrate down and back up
 	migrations := &migrate.FileMigrationSource{
 		Dir: "migrations",
 	}
-	_, err = migrate.Exec(db, "postgres", migrations, migrate.Down)
+	_, err := migrate.Exec(db, "postgres", migrations, migrate.Down)
 	if err != nil {
 		log.Fatal(err)
 	}
 	log.Println("Migrated Down")
-	_, err = migrate.Exec(testDb, "postgres", migrations, migrate.Down)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println("Migrated Down for test db")
 
 	_, err = migrate.Exec(db, "postgres", migrations, migrate.Up)
 	if err != nil {
 		log.Fatal(err)
 	}
 	log.Println("Migrated Up")
-	_, err = migrate.Exec(testDb, "postgres", migrations, migrate.Up)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.Println("Migrated Up for test db")
+}
 
-	//Begin seeding data
+func performSeeding(db *sql.DB) {
 	jsonFile, err := os.Open("database/data/exercise_types.json")
 	defer jsonFile.Close()
 	if err != nil {
@@ -87,21 +69,22 @@ func main() {
 	var result []map[string]interface{}
 	json.Unmarshal(byteValue, &result)
 	for _, item := range result {
-		db.Exec("INSERT INTO exercise_types (title) VALUES ($1)", item["title"])
+		db.Exec("INSERT INTO exercise_types (id, title) VALUES ($1, $2)", item["id"], item["title"])
 	}
-	log.Println("Seeded Exercise Types")
 
 	jsonFile, err = os.Open("database/data/exercises.json")
-	defer jsonFile.Close()
 	byteValue, _ = ioutil.ReadAll(jsonFile)
 	json.Unmarshal(byteValue, &result)
 	for _, item := range result {
-		ID := mapTypeToID(item["exercise_type"])
-		db.Exec("INSERT INTO exercises (title, exercise_type) VALUES ($1, $2)", item["title"], ID)
+		db.Exec("INSERT INTO exercises (id, title, exercise_type) VALUES ($1, $2, $3)", item["id"], item["title"], item["exercise_type"])
 	}
-	log.Println("Seeded Exercises")
 
-	generateFixturesForTesting(db)
+	jsonFile, err = os.Open("database/data/measurement_units.json")
+	byteValue, _ = ioutil.ReadAll(jsonFile)
+	json.Unmarshal(byteValue, &result)
+	for _, item := range result {
+		db.Exec("INSERT INTO measurement_units (id, title) VALUES ($1, $2)", item["id"], item["title"])
+	}
 }
 
 func generateFixturesForTesting(db *sql.DB) {
