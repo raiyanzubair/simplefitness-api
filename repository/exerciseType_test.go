@@ -6,22 +6,21 @@ import (
 	"testing"
 )
 
-func TestGetAllExercises(t *testing.T) {
+func TestGetAllExerciseTypes(t *testing.T) {
 	db := prepTestDB()
-	repo := repository.NewExerciseRepo(db)
-
-	exercises, err := repo.GetAll()
+	repo := repository.NewExerciseTypeRepo(db)
+	eTypes, err := repo.GetAll()
 
 	assert.NoError(t, err, "Should not error")
-	assert.NotNil(t, exercises, "Should fetch exercises")
-	assert.Len(t, exercises, 1299, "There should be 1299 exercises")
+	assert.NotNil(t, eTypes, "Should fetch exercise types")
+	assert.Len(t, eTypes, 12, "There should be 12 exercise types")
 }
 
-func TestGetExerciseByID(t *testing.T) {
+func TestGetExerciseTypesByID(t *testing.T) {
 	db := prepTestDB()
-	repo := repository.NewExerciseRepo(db)
+	repo := repository.NewExerciseTypeRepo(db)
 
-	for i := 1; i < 100; i++ {
+	for i := 1; i < 12; i++ {
 		exercise, err := repo.GetByID(i)
 
 		assert.NoError(t, err, "Should not error")
