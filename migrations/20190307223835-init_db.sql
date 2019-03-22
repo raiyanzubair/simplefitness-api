@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS exercise_types (
   id SERIAL PRIMARY KEY,
   title VARCHAR(255) NOT NULL
 );
-CREATE TABLE IF NOT EXISTS measurement_unit (
+CREATE TABLE IF NOT EXISTS measurement_units (
   id SERIAL PRIMARY KEY,
   title VARCHAR(255) NOT NULL
 );
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS workout_exercises (
 CREATE TABLE IF NOT EXISTS workout_exercise_sets (
   id SERIAL PRIMARY KEY,
   workout_exercise INTEGER NOT NULL REFERENCES workout_exercises(id),
-  measurement_unit INTEGER NOT NULL REFERENCES measurement_unit(id),
+  measurement_unit INTEGER NOT NULL REFERENCES measurement_units(id),
   reps INTEGER,
   resistance FLOAT,
   duration INTEGER
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS workout_exercise_sets (
 DROP TABLE IF EXISTS "users" CASCADE;
 DROP TABLE IF EXISTS "workouts" CASCADE;
 DROP TABLE IF EXISTS "exercise_types" CASCADE;
-DROP TABLE IF EXISTS "measurement_unit" CASCADE;
+DROP TABLE IF EXISTS "measurement_units" CASCADE;
 DROP TABLE IF EXISTS "exercises" CASCADE;
 DROP TABLE IF EXISTS "workout_exercises" CASCADE;
 DROP TABLE IF EXISTS "workout_exercise_sets" CASCADE;

@@ -19,10 +19,9 @@ func NewWorkoutExerciseRepo(db *sqlx.DB) *WorkoutExercise {
 // GetAll returns all exercises for a workout
 func (repo *WorkoutExercise) GetAll() ([]*model.WorkoutExercise, error) {
 	workoutExercises := []*model.WorkoutExercise{}
-	fmt.Println("we in here")
 	query := `
 		SELECT 
-			we.id, we.sets, we.reps, we.workout,
+			we.id, we.workout,
 			e.id as "exercise.id", e.title as "exercise.title",
 			et.id as "exercise.exercise_type.id", et.title as "exercise.exercise_type.title"
 		FROM workout_exercises as we
@@ -43,7 +42,7 @@ func (repo *WorkoutExercise) GetByID(id int) (*model.WorkoutExercise, error) {
 	workoutExercise := model.WorkoutExercise{}
 	query := `
 		SELECT 
-			we.id, we.sets, we.reps, we.workout,
+			we.id, we.workout,
 			e.id as "exercise.id", e.title as "exercise.title",
 			et.id as "exercise.exercise_type.id", et.title as "exercise.exercise_type.title"
 		FROM workout_exercises as we
@@ -63,7 +62,7 @@ func (repo *WorkoutExercise) GetByWorkout(workoutID int) ([]*model.WorkoutExerci
 	workoutExercises := []*model.WorkoutExercise{}
 	query := `
 		SELECT 
-			we.id, we.sets, we.reps, we.workout,
+			we.id, we.workout,
 			e.id as "exercise.id", e.title as "exercise.title",
 			et.id as "exercise.exercise_type.id", et.title as "exercise.exercise_type.title"
 		FROM workout_exercises as we
@@ -75,37 +74,38 @@ func (repo *WorkoutExercise) GetByWorkout(workoutID int) ([]*model.WorkoutExerci
 	if err != nil {
 		return nil, err
 	}
+
 	return workoutExercises, nil
 }
 
-// Create will insert a new workout exercise into the db
-func (repo *WorkoutExercise) Create(newWorkoutExercise *model.WorkoutExercise) (*model.WorkoutExercise, error) {
-	query := `
-		INSERT INTO workout_exercises (sets, reps, workout, exercise) 
-		VALUES ($1, $2, $3, $4) 
-		RETURNING id
-	`
-	result := repo.db.QueryRow(query,
-		newWorkoutExercise.Sets,
-		newWorkoutExercise.Reps,
-		newWorkoutExercise.WorkoutID,
-	)
-	var id int
-	result.Scan(&id)
-	workoutExercise, _ := repo.GetByID(id)
-	return workoutExercise, nil
-}
+// // Create will insert a new workout exercise into the db
+// func (repo *WorkoutExercise) Create(newWorkoutExercise *model.WorkoutExercise) (*model.WorkoutExercise, error) {
+// 	query := `
+// 		INSERT INTO workout_exercises (sets, reps, workout, exercise)
+// 		VALUES ($1, $2, $3, $4)
+// 		RETURNING id
+// 	`
+// 	result := repo.db.QueryRow(query,
+// 		newWorkoutExercise.Sets,
+// 		newWorkoutExercise.Reps,
+// 		newWorkoutExercise.WorkoutID,
+// 	)
+// 	var id int
+// 	result.Scan(&id)
+// 	workoutExercise, _ := repo.GetByID(id)
+// 	return workoutExercise, nil
+// }
 
-// Delete removes a workout from the db
-func (repo *WorkoutExercise) Delete(id int) error {
-	query := `
-		DELETE FROM workout_exercises 
-		WHERE id = $1
-	`
-	result, err := repo.db.Exec(query, id)
-	if err != nil {
-		return err
-	}
-	fmt.Println(result)
-	return nil
-}
+// // Delete removes a workout from the db
+// func (repo *WorkoutExercise) Delete(id int) error {
+// 	query := `
+// 		DELETE FROM workout_exercises
+// 		WHERE id = $1
+// 	`
+// 	result, err := repo.db.Exec(query, id)
+// 	if err != nil {
+// 		return err
+// 	}
+// 	fmt.Println(result)
+// 	return nil
+// }

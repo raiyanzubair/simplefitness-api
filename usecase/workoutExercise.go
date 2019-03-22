@@ -33,20 +33,20 @@ func (uc *WorkoutExercise) GetByID(id int) (*model.WorkoutExercise, error) {
 	return item, nil
 }
 
-// Create creates a new workout
-func (uc *WorkoutExercise) Create(newWorkoutExercise *model.WorkoutExercise) (*model.WorkoutExercise, error) {
-	created, err := uc.repo.Create(newWorkoutExercise)
-	if err != nil {
-		return nil, err
-	}
-	return created, nil
-}
+// // Create creates a new workout
+// func (uc *WorkoutExercise) Create(newWorkoutExercise *model.WorkoutExercise) (*model.WorkoutExercise, error) {
+// 	created, err := uc.repo.Create(newWorkoutExercise)
+// 	if err != nil {
+// 		return nil, err
+// 	}
+// 	return created, nil
+// }
 
-// Delete deletes a workout
-func (uc *WorkoutExercise) Delete(id int) error {
-	err := uc.repo.Delete(id)
-	if err != nil {
-		return err
-	}
-	return nil
-}
+// // Delete deletes a workout
+// func (uc *WorkoutExercise) Delete(id int) error {
+// 	err := uc.repo.Delete(id)
+// 	if err != nil {
+// 		return err
+// 	}
+// 	return nil
+// }
