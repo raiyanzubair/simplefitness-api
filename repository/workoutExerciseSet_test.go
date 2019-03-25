@@ -8,7 +8,7 @@ import (
 )
 
 func TestGetSetByID(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutExerciseSetRepo(db)
 
 	set, err := repo.GetByID(1)
@@ -18,7 +18,7 @@ func TestGetSetByID(t *testing.T) {
 }
 
 func TestGetByWorkoutExercise(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutExerciseSetRepo(db)
 
 	sets, err := repo.GetByWorkoutExercise(4)

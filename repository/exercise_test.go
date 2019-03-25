@@ -7,7 +7,7 @@ import (
 )
 
 func TestGetAllExercises(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewExerciseRepo(db)
 
 	exercises, err := repo.GetAll()
@@ -18,7 +18,7 @@ func TestGetAllExercises(t *testing.T) {
 }
 
 func TestGetExerciseByID(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewExerciseRepo(db)
 
 	for i := 1; i < 100; i++ {

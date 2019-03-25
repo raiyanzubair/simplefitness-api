@@ -8,7 +8,7 @@ import (
 )
 
 func TestGetAllWorkoutExercises(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutExerciseRepo(db)
 
 	exercises, err := repo.GetAll()
@@ -17,7 +17,7 @@ func TestGetAllWorkoutExercises(t *testing.T) {
 }
 
 func TestGetWorkoutExerciseByID(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutExerciseRepo(db)
 
 	exercise, err := repo.GetByID(1)
@@ -27,7 +27,7 @@ func TestGetWorkoutExerciseByID(t *testing.T) {
 }
 
 func TestGetWorkoutExerciseByWorkout(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutExerciseRepo(db)
 
 	exercises, err := repo.GetByWorkout(1)

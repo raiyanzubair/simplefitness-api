@@ -7,7 +7,7 @@ import (
 )
 
 func TestGetAllExerciseTypes(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewExerciseTypeRepo(db)
 	eTypes, err := repo.GetAll()
 
@@ -17,7 +17,7 @@ func TestGetAllExerciseTypes(t *testing.T) {
 }
 
 func TestGetExerciseTypesByID(t *testing.T) {
-	db := prepTestDB()
+	db := repository.PrepTestDB()
 	repo := repository.NewExerciseTypeRepo(db)
 
 	for i := 1; i < 12; i++ {

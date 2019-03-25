@@ -1,4 +1,4 @@
-package repository_test
+package repository
 
 import (
 	"database/sql"
@@ -8,7 +8,7 @@ import (
 	"log"
 )
 
-func prepTestDB() *sqlx.DB {
+func PrepTestDB() *sqlx.DB {
 	db, err := sql.Open("postgres", "user=raiyanzubair dbname=simplefitness_test sslmode=disable")
 	if err != nil {
 		log.Fatalf("ERROR opening db %v", err)

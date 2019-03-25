@@ -20,18 +20,16 @@ func NewWorkoutUsecase(wRepo *repository.Workout, weRepo *repository.WorkoutExer
 // Get workout exercises for a workout. And for each workout exercise get their sets.
 func (uc *Workout) getWorkoutExercises(workoutID int) ([]*model.WorkoutExercise, error) {
 	// Get workout exercises for the workout
-	result := []*model.WorkoutExercise{}
 	workoutExercises, err := uc.weRepo.GetByWorkout(workoutID)
 	if err != nil {
 		return nil, err
 	}
-
 	// for each workout exercise get the sets
-	for _, we := range workoutExercises {
+	for i, we := range workoutExercises {
 		sets, _ := uc.wesRepo.GetByWorkoutExercise(we.ID)
-		we.Sets = sets
+		workoutExercises[i].Sets = sets
 	}
-	return result, nil
+	return workoutExercises, nil
 }
 
 // GetAll returns all workouts and joins their associated workout exercises
