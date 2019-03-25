@@ -1,0 +1,12 @@
+- id: 1
+  workout: 1
+  exercise: 42
+- id: 2
+  workout: 1
+  exercise: 90
+- id: 3
+  workout: 2
+  exercise: 18
+- id: 4
+  workout: 2
+  exercise: 993

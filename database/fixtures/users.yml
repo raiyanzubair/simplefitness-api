@@ -1,0 +1,15 @@
+- id: 1
+  email: test1@gmail.com
+  hashed_password: e96e4286e4c1a05d083053904eff08ce
+  created_at: 1553511710
+  updated_at: 1553511710
+- id: 2
+  email: test2@gmail.com
+  hashed_password: 94c6c49cfa5200a8b829aef1011b2f66
+  created_at: 1548892800
+  updated_at: 1548892800
+- id: 3
+  email: test3@gmail.com
+  hashed_password: ec6df0318600c09da04bd67e272cdee3
+  created_at: 769046400
+  updated_at: 769046400

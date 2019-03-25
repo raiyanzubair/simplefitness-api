@@ -1,0 +1,55 @@
+- id: 1
+  workout_exercise: 1
+  measurement_unit: 2
+  reps: 12
+  resistance: 100
+  duration: 0
+
+- id: 2
+  workout_exercise: 1
+  measurement_unit: 2
+  reps: 12
+  resistance: 100
+  duration: 0
+
+- id: 3
+  workout_exercise: 2
+  measurement_unit: 1
+  reps: 12 
+  resistance: 100
+  duration: 0
+
+- id: 4
+  workout_exercise: 2
+  measurement_unit: 1
+  reps: 30
+  resistance: 100
+  duration: 0
+
+- id: 5
+  workout_exercise: 3
+  measurement_unit: 2
+  reps: 5
+  resistance: 100
+  duration: 0
+
+- id: 6
+  workout_exercise: 4
+  measurement_unit: 1
+  reps: 15
+  resistance: 100
+  duration: 0
+
+- id: 7
+  workout_exercise: 4
+  measurement_unit: 1
+  reps: 8
+  resistance: 100
+  duration: 0
+
+- id: 8
+  workout_exercise: 4
+  measurement_unit: 2
+  reps: 8
+  resistance: 100
+  duration: 0

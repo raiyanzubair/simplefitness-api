@@ -93,6 +93,7 @@ func generateFixturesForTesting(db *sql.DB) {
 		[]*testfixtures.TableInfo{
 			&testfixtures.TableInfo{Name: "exercise_types"},
 			&testfixtures.TableInfo{Name: "exercises"},
+			&testfixtures.TableInfo{Name: "measurement_units"},
 		},
 		&testfixtures.PostgreSQL{},
 		"database/fixtures/",

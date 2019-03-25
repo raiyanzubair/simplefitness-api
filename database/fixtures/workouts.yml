@@ -1,0 +1,8 @@
+- id: 1
+  title: Monday Chest
+  day: 0
+  creator: 1
+- id: 2
+  title: Tuesday Back
+  day: 1
+  creator: 2
