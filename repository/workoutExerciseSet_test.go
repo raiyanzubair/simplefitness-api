@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-func TestGetByID(t *testing.T) {
+func TestGetSetByID(t *testing.T) {
 	db := prepTestDB()
 	repo := repository.NewWorkoutExerciseSetRepo(db)
 

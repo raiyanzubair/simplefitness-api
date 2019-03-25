@@ -1,7 +1,6 @@
 package repository
 
 import (
-	"fmt"
 	"github.com/jmoiron/sqlx"
 	"simplefitnessApi/model"
 )
@@ -30,10 +29,8 @@ func (repo *WorkoutExercise) GetAll() ([]*model.WorkoutExercise, error) {
 	`
 	err := repo.db.Select(&workoutExercises, query)
 	if err != nil {
-		fmt.Println("ERROR")
 		return nil, err
 	}
-	fmt.Print(workoutExercises)
 	return workoutExercises, nil
 }
 
@@ -48,7 +45,7 @@ func (repo *WorkoutExercise) GetByID(id int) (*model.WorkoutExercise, error) {
 		FROM workout_exercises as we
 		JOIN exercises as e ON we.exercise = e.id
 		JOIN exercise_types as et ON e.exercise_type = et.id
-		WHERE id = $1
+		WHERE we.id = $1
 	`
 	err := repo.db.Get(&workoutExercise, query, id)
 	if err != nil {
@@ -68,7 +65,7 @@ func (repo *WorkoutExercise) GetByWorkout(workoutID int) ([]*model.WorkoutExerci
 		FROM workout_exercises as we
 		JOIN exercises as e ON we.exercise = e.id
 		JOIN exercise_types as et ON e.exercise_type = et.id
-		WHERE workout = $1
+		WHERE we.workout = $1
 	`
 	err := repo.db.Select(&workoutExercises, query, workoutID)
 	if err != nil {
@@ -106,6 +103,5 @@ func (repo *WorkoutExercise) GetByWorkout(workoutID int) ([]*model.WorkoutExerci
 // 	if err != nil {
 // 		return err
 // 	}
-// 	fmt.Println(result)
 // 	return nil
 // }
