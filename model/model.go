@@ -12,11 +12,11 @@ type User struct {
 
 // Workout Model
 type Workout struct {
-	ID        int               `db:"id" json:"id"`
-	Title     string            `db:"title" json:"title"`
-	Day       int               `db:"day" json:"day"`
-	CreatorID int               `db:"creator" json:"creator"`
-	Exercises []WorkoutExercise `json:"exercises"`
+	ID        int                `db:"id" json:"id"`
+	Title     string             `db:"title" json:"title"`
+	Day       int                `db:"day" json:"day"`
+	CreatorID int                `db:"creator" json:"creator"`
+	Exercises []*WorkoutExercise `json:"exercises"`
 }
 
 // Exercise Model
@@ -37,7 +37,7 @@ type WorkoutExercise struct {
 	ID        int `db:"id" json:"id"`
 	WorkoutID int `db:"workout" json:"workout"`
 	Exercise  `db:"exercise" json:"exercise"`
-	Sets      []WorkoutExerciseSet `json:"sets"`
+	Sets      []*WorkoutExerciseSet `json:"sets"`
 }
 
 // WorkoutExerciseSet Model
