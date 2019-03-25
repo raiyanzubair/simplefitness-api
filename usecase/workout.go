@@ -7,30 +7,29 @@ import (
 
 //Workout usecase interface
 type Workout struct {
-	wRepo  *repository.Workout
-	weRepo *repository.WorkoutExercise
-	eRepo  *repository.Exercise
+	wRepo   *repository.Workout
+	weRepo  *repository.WorkoutExercise
+	wesRepo *repository.WorkoutExerciseSet
 }
 
 // NewWorkoutUsecase creates a new usecase interface for workouts
-func NewWorkoutUsecase(wRepo *repository.Workout, weRepo *repository.WorkoutExercise, eRepo *repository.Exercise) *Workout {
-	return &Workout{wRepo, weRepo, eRepo}
+func NewWorkoutUsecase(wRepo *repository.Workout, weRepo *repository.WorkoutExercise, wesRepo *repository.WorkoutExerciseSet) *Workout {
+	return &Workout{wRepo, weRepo, wesRepo}
 }
 
-// Get exercise details for a workout based of a
-func (uc *Workout) getWorkoutExercises(workoutID int) ([]model.WorkoutExercise, error) {
+// Get workout exercises for a workout. And for each workout exercise get their sets.
+func (uc *Workout) getWorkoutExercises(workoutID int) ([]*model.WorkoutExercise, error) {
 	// Get workout exercises for the workout
-	result := []model.WorkoutExercise{}
+	result := []*model.WorkoutExercise{}
 	workoutExercises, err := uc.weRepo.GetByWorkout(workoutID)
-
 	if err != nil {
 		return nil, err
 	}
-	// for each workout exercise append its exercise object
+
+	// for each workout exercise get the sets
 	for _, we := range workoutExercises {
-		e, _ := uc.eRepo.GetByID(we.Exercise.ID)
-		we.Exercise = *e
-		result = append(result, *we)
+		sets, _ := uc.wesRepo.GetByWorkoutExercise(we.ID)
+		we.Sets = sets
 	}
 	return result, nil
 }
@@ -45,7 +44,7 @@ func (uc *Workout) GetAll() ([]*model.Workout, error) {
 	for i, w := range workouts {
 		result, _ := uc.getWorkoutExercises(w.ID)
 
-		workouts[i].Exercises = []model.WorkoutExercise{}
+		workouts[i].Exercises = []*model.WorkoutExercise{}
 		if result != nil {
 			workouts[i].Exercises = result
 		}
@@ -76,7 +75,7 @@ func (uc *Workout) GetByCreator(creatorID int) ([]*model.Workout, error) {
 	for i, w := range workouts {
 		result, _ := uc.getWorkoutExercises(w.ID)
 
-		workouts[i].Exercises = []model.WorkoutExercise{}
+		workouts[i].Exercises = []*model.WorkoutExercise{}
 		if result != nil {
 			workouts[i].Exercises = result
 		}
