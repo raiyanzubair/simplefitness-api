@@ -49,12 +49,13 @@ func New() (*App, error) {
 	exerciseTypeRepo := repository.NewExerciseTypeRepo(db)
 	workoutRepo := repository.NewWorkoutRepo(db)
 	workoutExerciseRepo := repository.NewWorkoutExerciseRepo(db)
+	workoutExerciseSetRepo := repository.NewWorkoutExerciseSetRepo(db)
 
 	// Init Usecase Interfaces
 	userUsecase := usecase.NewUserUsecase(userRepo)
 	exerciseUsecase := usecase.NewExerciseUsecase(exerciseRepo)
 	exerciseTypeUsecase := usecase.NewExerciseTypeUsecase(exerciseTypeRepo)
-	workoutUsecase := usecase.NewWorkoutUsecase(workoutRepo, workoutExerciseRepo, exerciseRepo)
+	workoutUsecase := usecase.NewWorkoutUsecase(workoutRepo, workoutExerciseRepo, workoutExerciseSetRepo)
 	workoutExerciseUsecase := usecase.NewWorkoutExerciseUsecase(workoutExerciseRepo)
 
 	// Init Handler Interfaces
