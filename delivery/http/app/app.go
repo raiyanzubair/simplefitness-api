@@ -56,7 +56,7 @@ func New() (*App, error) {
 	exerciseUsecase := usecase.NewExerciseUsecase(exerciseRepo)
 	exerciseTypeUsecase := usecase.NewExerciseTypeUsecase(exerciseTypeRepo)
 	workoutUsecase := usecase.NewWorkoutUsecase(workoutRepo, workoutExerciseRepo, workoutExerciseSetRepo)
-	workoutExerciseUsecase := usecase.NewWorkoutExerciseUsecase(workoutExerciseRepo)
+	workoutExerciseUsecase := usecase.NewWorkoutExerciseUsecase(workoutExerciseRepo, workoutExerciseSetRepo)
 
 	// Init Handler Interfaces
 	authHandler := handler.NewAuthHandler(userUsecase)

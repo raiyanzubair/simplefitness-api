@@ -26,7 +26,10 @@ func (uc *Workout) getWorkoutExercises(workoutID int) ([]*model.WorkoutExercise,
 	}
 	// for each workout exercise get the sets
 	for i, we := range workoutExercises {
-		sets, _ := uc.wesRepo.GetByWorkoutExercise(we.ID)
+		sets, err := uc.wesRepo.GetByWorkoutExercise(we.ID)
+		if err != nil {
+			return nil, err
+		}
 		workoutExercises[i].Sets = sets
 	}
 	return workoutExercises, nil
