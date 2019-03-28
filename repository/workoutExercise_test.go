@@ -2,6 +2,8 @@ package repository_test
 
 import (
 	"github.com/stretchr/testify/assert"
+	"simplefitnessApi/model"
+
 	// "simplefitnessApi/model"
 	"simplefitnessApi/repository"
 	"testing"
@@ -45,4 +47,46 @@ func TestWorkoutExercise_GetByWorkout(t *testing.T) {
 	for _, e := range exercises {
 		assert.Equal(t, e.WorkoutID, 2, "Set should belong to WorkoutExercise 2")
 	}
+}
+
+func TestWorkoutExercise_Create(t *testing.T) {
+	db := repository.PrepTestDB()
+	repo := repository.NewWorkoutExerciseRepo(db)
+
+	toCreate := model.WorkoutExercise{
+		WorkoutID: 1,
+		Exercise: model.Exercise{
+			ID: 1,
+		},
+	}
+	created, err := repo.Create(&toCreate)
+	assert.NoError(t, err, "Creating should not error")
+	assert.NotNil(t, created, "Creating should not return nil")
+	assert.Equal(t, toCreate.WorkoutID, created.WorkoutID, "Should match inputted struct")
+	assert.Equal(t, toCreate.Exercise.ID, created.Exercise.ID, "Should match inputted struct")
+}
+
+func TestWorkoutExercise_Delete(t *testing.T) {
+	db := repository.PrepTestDB()
+	repo := repository.NewWorkoutExerciseRepo(db)
+
+	toCreate := model.WorkoutExercise{
+		WorkoutID: 1,
+		Exercise: model.Exercise{
+			ID: 1,
+		},
+	}
+	created, err := repo.Create(&toCreate)
+	assert.NoError(t, err, "Creating should not error")
+	assert.NotNil(t, created, "Creating should not return nil")
+	assert.Equal(t, toCreate.WorkoutID, created.WorkoutID, "Should match inputted struct")
+	assert.Equal(t, toCreate.Exercise.ID, created.Exercise.ID, "Should match inputted struct")
+
+	// Now delete it and check it doesnt exist
+	err = repo.Delete(created.ID)
+	assert.NoError(t, err, "Creating should not error")
+
+	check, err := repo.GetByID(created.ID)
+	assert.Error(t, err, "Should return an error as that ID is gone")
+	assert.Nil(t, check, "Should return nil")
 }

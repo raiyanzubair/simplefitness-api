@@ -70,7 +70,7 @@ func TestWorkoutExerciseSet_Delete(t *testing.T) {
 		},
 		Duration: 0,
 	}
-	created,err := repo.Create(&toCreate)
+	created, err := repo.Create(&toCreate)
 	assert.NoError(t, err, "Creating should not error")
 	assert.NotNil(t, created, "Creating should not return nil")
 	assert.Equal(t,toCreate.WorkoutExerciseID, created.WorkoutExerciseID, "Should match inputted struct")

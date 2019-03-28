@@ -18,6 +18,7 @@ func PrepTestDB() *sqlx.DB {
 		"../database/fixtures/exercise_types.yml",
 		"../database/fixtures/exercises.yml",
 		"../database/fixtures/measurement_units.yml",
+		"../database/fixtures/users.yml",
 		"../database/fixtures/workouts.yml",
 		"../database/fixtures/workout_exercises.yml",
 		"../database/fixtures/workout_exercise_sets.yml",

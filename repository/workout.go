@@ -40,10 +40,8 @@ func (repo *Workout) GetByID(id int) (*model.Workout, error) {
 	`
 	err := repo.db.Get(&workout, query, id)
 	if err != nil {
-		fmt.Printf(err.Error())
 		return nil, err
 	}
-
 	return &workout, nil
 }
 
@@ -74,21 +72,26 @@ func (repo *Workout) Create(newWorkout *model.Workout) (*model.Workout, error) {
 		newWorkout.CreatorID,
 	)
 	var id int
-	result.Scan(&id)
-	workout, _ := repo.GetByID(int(id))
+	err := result.Scan(&id)
+	if err != nil {
+		return nil, err
+	}
+	workout, err := repo.GetByID(id)
+	if err != nil {
+		return nil, err
+	}
 	return workout, nil
 }
 
 // Delete removes a workout from the db
 func (repo *Workout) Delete(id int) error {
 	query := `
-		DELETE FROM workout
+		DELETE FROM workouts
 		WHERE id = $1
 	`
-	result, err := repo.db.Exec(query, id)
+	_, err := repo.db.Exec(query, id)
 	if err != nil {
 		return err
 	}
-	fmt.Println(result)
 	return nil
 }

@@ -2,7 +2,6 @@ package repository
 
 import (
 	"github.com/jmoiron/sqlx"
-	"log"
 	"simplefitnessApi/model"
 )
 
@@ -71,8 +70,6 @@ func (repo *WorkoutExerciseSet) Create(newSet *model.WorkoutExerciseSet) (*model
 	var id int
 	err := result.Scan(&id)
 	if err != nil {
-		log.Print(newSet)
-		log.Print(id)
 		return nil, err
 	}
 	set, err := repo.GetByID(id)
@@ -82,7 +79,7 @@ func (repo *WorkoutExerciseSet) Create(newSet *model.WorkoutExerciseSet) (*model
 	return set, nil
 }
 
-// Delete removes a workout from the db
+// Delete removes a workout exercise set from the db
 func (repo *WorkoutExerciseSet) Delete(id int) error {
 	query := `
 		DELETE FROM workout_exercise_sets

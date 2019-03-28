@@ -75,33 +75,38 @@ func (repo *WorkoutExercise) GetByWorkout(workoutID int) ([]*model.WorkoutExerci
 	return workoutExercises, nil
 }
 
-// // Create will insert a new workout exercise into the db
-// func (repo *WorkoutExercise) Create(newWorkoutExercise *model.WorkoutExercise) (*model.WorkoutExercise, error) {
-// 	query := `
-// 		INSERT INTO workout_exercises (sets, reps, workout, exercise)
-// 		VALUES ($1, $2, $3, $4)
-// 		RETURNING id
-// 	`
-// 	result := repo.db.QueryRow(query,
-// 		newWorkoutExercise.Sets,
-// 		newWorkoutExercise.Reps,
-// 		newWorkoutExercise.WorkoutID,
-// 	)
-// 	var id int
-// 	result.Scan(&id)
-// 	workoutExercise, _ := repo.GetByID(id)
-// 	return workoutExercise, nil
-// }
+// Create will insert a new workout exercise into the db
+func (repo *WorkoutExercise) Create(newWorkoutExercise *model.WorkoutExercise) (*model.WorkoutExercise, error) {
+	query := `
+		INSERT INTO workout_exercises (workout, exercise)
+		VALUES ($1, $2)
+		RETURNING id
+	`
+	result := repo.db.QueryRow(query,
+		newWorkoutExercise.WorkoutID,
+		newWorkoutExercise.Exercise.ID,
+	)
+	var id int
+	err := result.Scan(&id)
+	if err != nil {
+		return nil, err
+	}
+	workoutExercise, err := repo.GetByID(id)
+	if err != nil {
+		return nil, err
+	}
+	return workoutExercise, nil
+}
 
-// // Delete removes a workout from the db
-// func (repo *WorkoutExercise) Delete(id int) error {
-// 	query := `
-// 		DELETE FROM workout_exercises
-// 		WHERE id = $1
-// 	`
-// 	result, err := repo.db.Exec(query, id)
-// 	if err != nil {
-// 		return err
-// 	}
-// 	return nil
-// }
+// Delete removes a workout from the db
+func (repo *WorkoutExercise) Delete(id int) error {
+	query := `
+		DELETE FROM workout_exercises
+		WHERE id = $1
+	`
+	_, err := repo.db.Exec(query, id)
+	if err != nil {
+		return err
+	}
+	return nil
+}
