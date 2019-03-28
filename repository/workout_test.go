@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-func TestGetAllWorkouts(t *testing.T) {
+func TestWorkout_GetAll(t *testing.T) {
 	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutRepo(db)
 
@@ -16,7 +16,7 @@ func TestGetAllWorkouts(t *testing.T) {
 	assert.NotNil(t, workouts, "Should fetch workouts")
 }
 
-func TestGetWorkoutByID(t *testing.T) {
+func TestWorkout_GetByID(t *testing.T) {
 	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutRepo(db)
 
@@ -26,7 +26,7 @@ func TestGetWorkoutByID(t *testing.T) {
 	assert.Equal(t, exercise.ID, 1, "ID should be 1")
 }
 
-func TestGetWorkoutByCreator(t *testing.T) {
+func TestWorkout_GetByCreator(t *testing.T) {
 	db := repository.PrepTestDB()
 	repo := repository.NewWorkoutRepo(db)
 

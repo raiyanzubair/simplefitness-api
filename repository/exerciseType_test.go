@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestGetAllExerciseTypes(t *testing.T) {
+func TestExerciseType_GetAll(t *testing.T) {
 	db := repository.PrepTestDB()
 	repo := repository.NewExerciseTypeRepo(db)
 	eTypes, err := repo.GetAll()
@@ -16,7 +16,7 @@ func TestGetAllExerciseTypes(t *testing.T) {
 	assert.Len(t, eTypes, 12, "There should be 12 exercise types")
 }
 
-func TestGetExerciseTypesByID(t *testing.T) {
+func TestExerciseType_GetByID(t *testing.T) {
 	db := repository.PrepTestDB()
 	repo := repository.NewExerciseTypeRepo(db)
 
