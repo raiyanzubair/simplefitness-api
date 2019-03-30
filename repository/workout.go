@@ -86,6 +86,7 @@ func (repo *Workout) Delete(id int) error {
 	query := `
 		DELETE FROM workouts
 		WHERE id = $1
+
 	`
 	_, err := repo.db.Exec(query, id)
 	if err != nil {
