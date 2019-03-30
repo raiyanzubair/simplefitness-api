@@ -79,7 +79,7 @@ func TestWorkout_Delete(t *testing.T) {
 
 	// Now delete it and check it doesnt exist
 	err = repo.Delete(created.ID)
-	assert.NoError(t, err, "Creating should not error")
+	assert.NoError(t, err, "Deleting should not error")
 
 	check, err := repo.GetByID(created.ID)
 	assert.Error(t, err, "Should return an error as that ID is gone")

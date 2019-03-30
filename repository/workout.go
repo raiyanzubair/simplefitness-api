@@ -1,7 +1,6 @@
 package repository
 
 import (
-	"fmt"
 	"github.com/jmoiron/sqlx"
 	// "os"
 	"simplefitnessApi/model"
@@ -32,7 +31,7 @@ func (repo *Workout) GetAll() ([]*model.Workout, error) {
 
 // GetByID returns a specific Workout and its associated exercises
 func (repo *Workout) GetByID(id int) (*model.Workout, error) {
-	//Get workouts
+	//Get workout
 	workout := model.Workout{}
 	query := `
 		SELECT * FROM workouts
@@ -47,17 +46,16 @@ func (repo *Workout) GetByID(id int) (*model.Workout, error) {
 
 // GetByCreator returns Workouts for a specific user
 func (repo *Workout) GetByCreator(creatorID int) ([]*model.Workout, error) {
-	arr := []*model.Workout{}
+	workouts := []*model.Workout{}
 	query := `
 		SELECT * FROM workouts 
 		WHERE creator = $1
 	`
-	err := repo.db.Select(&arr, query, creatorID)
+	err := repo.db.Select(&workouts, query, creatorID)
 	if err != nil {
-		fmt.Printf(err.Error())
 		return nil, err
 	}
-	return arr, nil
+	return workouts, nil
 }
 
 // Create will create insert a new workout into the db and return it

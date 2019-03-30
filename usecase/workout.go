@@ -73,24 +73,50 @@ func (uc *Workout) GetByCreator(creatorID int) ([]*model.Workout, error) {
 		return nil, err
 	}
 
-	for i, w := range workouts {
-		result, _ := uc.getWorkoutExercises(w.ID)
-
-		workouts[i].Exercises = []*model.WorkoutExercise{}
-		if result != nil {
-			workouts[i].Exercises = result
+	for _, w := range workouts {
+		result, err := uc.getWorkoutExercises(w.ID)
+		if err != nil {
+			return nil, err
 		}
+		w.Exercises = result
+		//workouts[i].Exercises = []*model.WorkoutExercise{}
+
 	}
 	return workouts, nil
 }
 
-// Create creates a new workout
-func (uc *Workout) Create(newWorkout *model.Workout) (*model.Workout, error) {
-	created, err := uc.wRepo.Create(newWorkout)
+/*
+Create will create a new workout
+Attach sets and exercises to it
+*/
+func (uc *Workout) Create(w *model.Workout) (*model.Workout, error) {
+	// create base workout
+	newWorkout, err := uc.wRepo.Create(w)
 	if err != nil {
 		return nil, err
 	}
-	return created, nil
+
+	// create workout exercises
+	for _, we := range w.Exercises {
+		we.WorkoutID = newWorkout.ID
+		newWorkoutExercise, err := uc.weRepo.Create(we)
+		if err != nil {
+			return nil, err
+		}
+
+		// create workout exercise sets
+		for _, wes := range we.Sets{
+			wes.WorkoutExerciseID = newWorkoutExercise.ID
+			newSet,err := uc.wesRepo.Create(wes)
+
+			if err != nil {
+				return nil, err
+			}
+			newWorkoutExercise.Sets = append(newWorkoutExercise.Sets, newSet)
+		}
+		newWorkout.Exercises = append(newWorkout.Exercises, newWorkoutExercise)
+	}
+	return newWorkout, nil
 }
 
 // Delete deletes a workout
