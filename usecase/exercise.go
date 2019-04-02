@@ -17,11 +17,11 @@ func NewExerciseUsecase(repo *repository.Exercise) *Exercise {
 
 // GetAll returns all exercises
 func (uc *Exercise) GetAll() ([]*model.Exercise, error) {
-	arr, err := uc.repo.GetAll()
+	slice, err := uc.repo.GetAll()
 	if err != nil {
 		return nil, err
 	}
-	return arr, nil
+	return slice, nil
 }
 
 // GetByID returns a specific Exercise
@@ -35,9 +35,9 @@ func (uc *Exercise) GetByID(id int) (*model.Exercise, error) {
 
 // GetByName returns a specific Exercise
 func (uc *Exercise) GetByName(name string) ([]*model.Exercise, error) {
-	arr, err := uc.repo.GetByName(name)
+	slice, err := uc.repo.GetByName(name)
 	if err != nil {
 		return nil, err
 	}
-	return arr, nil
+	return slice, nil
 }

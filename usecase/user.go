@@ -17,11 +17,11 @@ func NewUserUsecase(repo *repository.User) *User {
 
 // GetAll returns all user
 func (uc *User) GetAll() ([]*model.User, error) {
-	arr, err := uc.repo.GetAll()
+	slice, err := uc.repo.GetAll()
 	if err != nil {
 		return nil, err
 	}
-	return arr, nil
+	return slice, nil
 }
 
 // GetByID returns a specific User

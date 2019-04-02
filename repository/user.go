@@ -18,12 +18,12 @@ func NewUserRepo(db *sqlx.DB) *User {
 
 // GetAll returns all users
 func (repo *User) GetAll() ([]*model.User, error) {
-	arr := []*model.User{}
-	err := repo.db.Select(&arr, "SELECT id, email, hashed_password FROM users")
+	slice := []*model.User{}
+	err := repo.db.Select(&slice, "SELECT id, email, hashed_password FROM users")
 	if err != nil {
 		return nil, err
 	}
-	return arr, nil
+	return slice, nil
 }
 
 // GetByID returns a specific User

@@ -18,18 +18,18 @@ func NewWorkoutExerciseUsecase(wRepo *repository.WorkoutExercise, wesRepo *repos
 
 // GetAll returns all exercises
 func (uc *WorkoutExercise) GetAll() ([]*model.WorkoutExercise, error) {
-	arr, err := uc.wRepo.GetAll()
+	slice, err := uc.wRepo.GetAll()
 	if err != nil {
 		return nil, err
 	}
-	for i, we := range arr{
+	for i, we := range slice{
 		sets, err := uc.wesRepo.GetByWorkoutExercise(we.ID)
 		if err != nil {
 			return nil, err
 		}
-		arr[i].Sets = sets
+		slice[i].Sets = sets
 	}
-	return arr, nil
+	return slice, nil
 }
 
 // GetByID returns a specific WorkoutExercise

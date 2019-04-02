@@ -19,13 +19,13 @@ func NewExerciseTypeRepo(db *sqlx.DB) *ExerciseType {
 
 // GetAll returns all ExerciseTypes
 func (repo *ExerciseType) GetAll() ([]*model.ExerciseType, error) {
-	arr := []*model.ExerciseType{}
-	err := repo.db.Select(&arr, "SELECT id, title FROM exercise_types")
+	slice := []*model.ExerciseType{}
+	err := repo.db.Select(&slice, "SELECT id, title FROM exercise_types")
 	if err != nil {
 		fmt.Println(err)
 		return nil, err
 	}
-	return arr, nil
+	return slice, nil
 }
 
 // GetByID returns a specific ExerciseType

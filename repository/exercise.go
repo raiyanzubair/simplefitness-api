@@ -19,18 +19,18 @@ func NewExerciseRepo(db *sqlx.DB) *Exercise {
 
 // GetAll returns all exercises
 func (repo *Exercise) GetAll() ([]*model.Exercise, error) {
-	arr := []*model.Exercise{}
+	slice := []*model.Exercise{}
 	query := `
 		SELECT e.id, e.title, et.id as "exercise_type.id", et.title as "exercise_type.title"
 		FROM exercises as e 
 		JOIN exercise_types as et 
 		ON e.exercise_type = et.id	
 	`
-	err := repo.db.Select(&arr, query)
+	err := repo.db.Select(&slice, query)
 	if err != nil {
 		return nil, err
 	}
-	return arr, nil
+	return slice, nil
 }
 
 // GetByID returns a specific Exercise
@@ -52,7 +52,7 @@ func (repo *Exercise) GetByID(id int) (*model.Exercise, error) {
 
 // GetByName returns a specific Exercise
 func (repo *Exercise) GetByName(name string) ([]*model.Exercise, error) {
-	arr := []*model.Exercise{}
+	slice := []*model.Exercise{}
 	query := `
 		SELECT e.id, e.title, et.id as "exercise_type.id", et.title as "exercise_type.title"
 		FROM exercises as e 
@@ -62,9 +62,9 @@ func (repo *Exercise) GetByName(name string) ([]*model.Exercise, error) {
 	`
 	log.Println("hello")
 	log.Println(name)
-	err := repo.db.Select(&arr, query, name)
+	err := repo.db.Select(&slice, query, name)
 	if err != nil {
 		return nil, err
 	}
-	return arr, nil
+	return slice, nil
 }

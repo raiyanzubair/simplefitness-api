@@ -19,9 +19,9 @@ func NewWorkoutExerciseHandler(uc *usecase.WorkoutExercise) *WorkoutExercise {
 	return &WorkoutExercise{uc}
 }
 
-func (we *WorkoutExercise) sliceToMap(arr []*model.WorkoutExercise) map[string]*model.WorkoutExercise {
+func (we *WorkoutExercise) sliceToMap(slice []*model.WorkoutExercise) map[string]*model.WorkoutExercise {
 	dict := make(map[string]*model.WorkoutExercise)
-	for _, v := range arr {
+	for _, v := range slice {
 		dict[strconv.Itoa(v.ID)] = v
 	}
 	return dict
@@ -29,11 +29,11 @@ func (we *WorkoutExercise) sliceToMap(arr []*model.WorkoutExercise) map[string]*
 
 // GetAll handles the route for getting all workout exercises
 func (we *WorkoutExercise) GetAll(w http.ResponseWriter, r *http.Request) {
-	arr, err := we.uc.GetAll()
+	slice, err := we.uc.GetAll()
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 	}
-	dict := we.sliceToMap(arr)
+	dict := we.sliceToMap(slice)
 	json.NewEncoder(w).Encode(dict)
 }
 

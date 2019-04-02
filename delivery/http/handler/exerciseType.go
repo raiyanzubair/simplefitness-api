@@ -19,9 +19,9 @@ func NewExerciseTypeHandler(uc *usecase.ExerciseType) *ExerciseType {
 	return &ExerciseType{uc}
 }
 
-func (et *ExerciseType) sliceToMap(arr []*model.ExerciseType) map[string]*model.ExerciseType {
+func (et *ExerciseType) sliceToMap(slice []*model.ExerciseType) map[string]*model.ExerciseType {
 	dict := make(map[string]*model.ExerciseType)
-	for _, v := range arr {
+	for _, v := range slice {
 		dict[strconv.Itoa(v.ID)] = v
 	}
 	return dict
@@ -29,8 +29,8 @@ func (et *ExerciseType) sliceToMap(arr []*model.ExerciseType) map[string]*model.
 
 // GetAll handles the route for getting all exercise types
 func (et *ExerciseType) GetAll(w http.ResponseWriter, r *http.Request) {
-	arr, _ := et.uc.GetAll()
-	dict := et.sliceToMap(arr)
+	slice, _ := et.uc.GetAll()
+	dict := et.sliceToMap(slice)
 	json.NewEncoder(w).Encode(dict)
 }
 
