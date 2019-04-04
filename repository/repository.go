@@ -15,15 +15,16 @@ func PrepTestDB() *sqlx.DB {
 	}
 
 	fixtures, err := testfixtures.NewFiles(db, &testfixtures.PostgreSQL{},
-		"../database/fixtures/exercise_types.yml",
-		"../database/fixtures/exercises.yml",
-		"../database/fixtures/measurement_units.yml",
-		"../database/fixtures/users.yml",
-		"../database/fixtures/workouts.yml",
-		"../database/fixtures/workout_exercises.yml",
-		"../database/fixtures/workout_exercise_sets.yml",
+		"../fixtures/exercise_types.yml",
+		"../fixtures/exercises.yml",
+		"../fixtures/measurement_units.yml",
+		"../fixtures/users.yml",
+		"../fixtures/workouts.yml",
+		"../fixtures/workout_exercises.yml",
+		"../fixtures/workout_exercise_sets.yml",
 	)
 	if err != nil {
+		log.Print(err)
 		log.Fatalf("NANI %v", err)
 	}
 	if err := fixtures.Load(); err != nil {

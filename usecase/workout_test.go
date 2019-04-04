@@ -9,7 +9,7 @@ import (
 	"testing"
 )
 
-func NewTestWorkoutUsecase() *usecase.Workout {
+func newTestWorkoutUsecase() *usecase.Workout {
 	db := repository.PrepTestDB()
 	wRepo := repository.NewWorkoutRepo(db)
 	weRepo := repository.NewWorkoutExerciseRepo(db)
@@ -18,14 +18,14 @@ func NewTestWorkoutUsecase() *usecase.Workout {
 }
 
 func TestWorkout_GetAll(t *testing.T) {
-	uc := NewTestWorkoutUsecase()
+	uc := newTestWorkoutUsecase()
 	workouts, err := uc.GetAll()
 	assert.NoError(t, err, "Fetching should not error")
 	assert.Len(t, workouts, 2, "Should be 2 workouts")
 }
 
 func TestWorkout_GetByID(t *testing.T) {
-	uc := NewTestWorkoutUsecase()
+	uc := newTestWorkoutUsecase()
 	workout, err := uc.GetByID(1)
 
 	assert.NoError(t, err, "Fetching should not error")
@@ -38,7 +38,7 @@ func TestWorkout_GetByID(t *testing.T) {
 }
 
 func TestWorkout_Create(t *testing.T) {
-	uc := NewTestWorkoutUsecase()
+	uc := newTestWorkoutUsecase()
 
 	mock := model.Workout{
 		Title: "Monday Memes",
@@ -73,7 +73,7 @@ func TestWorkout_Create(t *testing.T) {
 }
 
 func TestWorkout_Delete(t *testing.T) {
-	uc := NewTestWorkoutUsecase()
+	uc := newTestWorkoutUsecase()
 	mock := model.Workout{
 		Title: "Monday Memes",
 		Day: 0,

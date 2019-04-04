@@ -6,7 +6,7 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	"log"
 	"net/http"
-	"simplefitnessApi/delivery/http/auth"
+	"simplefitnessApi/auth"
 	"simplefitnessApi/model"
 	"simplefitnessApi/usecase"
 	"strconv"

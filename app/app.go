@@ -7,8 +7,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"net/http"
 	"os"
-	// "simplefitnessApi/delivery/http/auth"
-	"simplefitnessApi/delivery/http/handler"
+	"simplefitnessApi/handler"
 	"simplefitnessApi/repository"
 	"simplefitnessApi/usecase"
 )
@@ -97,7 +96,7 @@ func New() (*App, error) {
 		r.Get("/", workoutHandler.GetAll)
 		r.Post("/", workoutHandler.Create)
 
-		r.Route("/{workoutID}", func(r chi.Router) {
+	r.Route("/{workoutID}", func(r chi.Router) {
 			r.Get("/", workoutHandler.GetByID)
 			r.Delete("/", workoutHandler.Delete)
 		})

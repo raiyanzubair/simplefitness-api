@@ -96,7 +96,7 @@ func generateFixturesForTesting(db *sql.DB) {
 			&testfixtures.TableInfo{Name: "measurement_units"},
 		},
 		&testfixtures.PostgreSQL{},
-		"database/fixtures/",
+		"fixtures/",
 	)
 	if err != nil {
 		log.Fatalf("Error generating fixtures: %v", err)
