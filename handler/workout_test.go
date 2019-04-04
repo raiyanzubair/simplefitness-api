@@ -8,6 +8,7 @@ import (
 	"net/http/httptest"
 	"simplefitnessApi/handler"
 	"simplefitnessApi/model"
+	"strings"
 
 	//"simplefitnessApi/model"
 	"simplefitnessApi/repository"
@@ -29,7 +30,7 @@ func initTestWorkoutRouter() *chi.Mux {
 	router.Get("/workout", h.GetAll)
 	router.Get("/workout/{workoutID}", h.GetByID)
 	router.Get("/user/{userID}/workout", h.GetUserWorkouts)
-	router.Post("/workout}", h.Create)
+	router.Post("/workout", h.Create)
 	router.Delete("/workout/{workoutID}", h.Delete)
 
 	return router
@@ -87,9 +88,125 @@ func TestWorkout_GetUserWorkouts(t *testing.T) {
 	}
 }
 
+
+
 func TestWorkout_Create(t *testing.T) {
+	tests := []struct{
+		json string
+		exercisesPerWorkout int
+		setsPerExercise int
+	}{
+		{
+			json: `{
+				"title": "Test Workout 1",
+				"day": 0,
+				"creator": 3,
+				"exercises": [
+				{
+					"exercise": { 
+						"id":1
+					},
+					"sets": [
+					{
+						"resistance": 90,
+						"reps": 5,
+						"duration": 0,
+						"measurement_unit": {
+							"id": 1
+						}
+					},
+					{
+						"resistance": 90,
+						"reps": 8,
+						"duration": 0,
+						"measurement_unit": {
+							"id": 1
+						}
+					}
+				]
+				}
+				]
+			}`,
+			exercisesPerWorkout: 1,
+			setsPerExercise: 2,
+		},
+	}
+	router := initTestWorkoutRouter()
+	for _, test := range tests {
+		req := httptest.NewRequest("POST", "/workout", strings.NewReader(test.json))
+		rr := httptest.NewRecorder()
+		router.ServeHTTP(rr, req)
+
+		assert.NotNil(t, rr.Body, "Creation response should not be nil")
+
+		workout := model.Workout{}
+		err := json.NewDecoder(rr.Body).Decode(&workout)
+
+		if err != nil {
+			t.Fatalf("Error unmarshalling json response\n%d", err)
+		}
+		assert.Len(t, workout.Exercises, test.exercisesPerWorkout, "Expected %d exercises, got %d", test.exercisesPerWorkout, len(workout.Exercises))
+		for _, ex := range workout.Exercises {
+			assert.Len(t, ex.Sets, test.setsPerExercise, "Expected %d exercises, got %d", test.setsPerExercise, len(ex.Sets))
+		}
+	}
 }
 
 func TestWorkout_Delete(t *testing.T) {
+	tests := []struct{
+		json string
+	}{
+		{
+			json: `{
+				"title": "Test Workout 1",
+				"day": 0,
+				"creator": 3,
+				"exercises": [
+				{
+					"exercise": { 
+						"id":1
+					},
+					"sets": [
+					{
+						"resistance": 90,
+						"reps": 5,
+						"duration": 0,
+						"measurement_unit": {
+							"id": 1
+						}
+					},
+					{
+						"resistance": 90,
+						"reps": 8,
+						"duration": 0,
+						"measurement_unit": {
+							"id": 1
+						}
+					}
+				]
+				}
+				]
+			}`,
+		},
+	}
+	router := initTestWorkoutRouter()
+	for _, test := range tests {
+		req := httptest.NewRequest("POST", "/workout", strings.NewReader(test.json))
+		rr := httptest.NewRecorder()
+		router.ServeHTTP(rr, req)
+
+		assert.NotNil(t, rr.Body, "Creation response should not be nil")
+		workout := model.Workout{}
+		err := json.NewDecoder(rr.Body).Decode(&workout)
+		if err != nil {
+			t.Fatalf("Error unmarshalling json response\n%d", err)
+		}
+
+		req = httptest.NewRequest("GET", fmt.Sprintf("/workout/%d", workout.ID),nil)
+		rr = httptest.NewRecorder()
+		router.ServeHTTP(rr, req)
+
+		assert.Equal(t, 200, rr.Code, "Expected %d, got %d", 200, rr.Code)
+	}
 }
 
